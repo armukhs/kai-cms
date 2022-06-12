@@ -5,10 +5,18 @@ export default async function getUsers(req: NextApiRequest, res: NextApiResponse
   const opt = req.query.opt || '';
   try {
     const users = await prisma.user.findMany({
-      where: { unitId: { not: null } },
+      where: {
+        NOT: {
+          roles: { contains: 'admin' },
+        },
+      },
+      // where: { unitId: { not: null } },
       include: {
         Unit: { select: { kode: true, nama: true } },
         Jabatan: { select: { kode: true, nama: true } },
+      },
+      orderBy: {
+        created: 'desc',
       },
     });
 
