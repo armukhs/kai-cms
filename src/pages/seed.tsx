@@ -1,7 +1,7 @@
 import cuid from 'cuid';
-import units from 'prisma/units.json';
-import jabatans from 'prisma/jabatans.json';
-import units2 from 'prisma/units2.json';
+import units from '../../prisma/units.json';
+import jabatans from '../../prisma/jabatans.json';
+import units2 from '../../prisma/units2.json';
 
 function rebuild1() {
   const array: any[] = [];

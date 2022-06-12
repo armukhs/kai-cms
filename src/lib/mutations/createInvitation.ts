@@ -1,12 +1,15 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import prisma from 'lib/db';
 import nodemailer from 'nodemailer';
+import cuid from 'cuid';
 
 export default async function createInvitation(req: NextApiRequest, res: NextApiResponse) {
   console.log(Date.now());
 
   try {
-    const { fromName, fromEmail, nama, nipp, email, jabatan, jabatanId, roles, unitId } = req.body;
+    const { fromName, fromEmail, nama, nipp, email, jabatan, jabatanId, roles, unitId, baseUrl } =
+      req.body;
+    const token = cuid();
     const rs = await prisma.invitation.create({
       data: {
         fromName: fromName,
@@ -18,6 +21,7 @@ export default async function createInvitation(req: NextApiRequest, res: NextApi
         jabatanId: jabatanId,
         unitId: unitId,
         roles: roles,
+        token: token,
       },
     });
 
@@ -34,20 +38,17 @@ export default async function createInvitation(req: NextApiRequest, res: NextApi
       },
     });
 
+    const verifyPath = '/token';
+    const path = baseUrl + verifyPath;
+
     var mailOptions = {
       from: '"KAI Mail" <ptkj@hotmail.com>',
       to: email,
       subject: 'KAI Nodemailer',
       text: 'Hey there, it’s our first message sent with Nodemailer ;) ',
-      html: '<b>Hey there! </b><br> This is our first message sent with Nodemailer',
+      html: htmlEmail(path, token),
     };
 
-    // transport.sendMail(mailOptions, (error, info) => {
-    //   if (error) {
-    //     return console.log(error);
-    //   }
-    //   console.log('Message sent: %s', info.messageId);
-    // });
     const mailrs = await transport.sendMail(mailOptions);
     console.log(Date.now(), mailrs);
 
@@ -56,4 +57,13 @@ export default async function createInvitation(req: NextApiRequest, res: NextApi
     console.log(error);
     res.status(500).json(error);
   }
+}
+
+function htmlEmail(path: string, token: string) {
+  return `
+    <p>Terimasih atas minat Anda untuk mencoba Aces.</p>
+    <p>Kami telah menyiapkan halaman khusus bagi Anda untuk membuat password. Silakan klik tautan di bawah ini:</p>
+    <p><a href="${path}/${token}">Klik disini untuk login.</a></p>
+    <p>Tautan tersebut berlaku selama 48 jam sejak Anda melakukan sign-up.</p>
+  `;
 }

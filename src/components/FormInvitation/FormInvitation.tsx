@@ -9,6 +9,8 @@ import { createPostData } from 'lib/utils';
 import { useContext, useEffect, useState } from 'react';
 import { KeyedMutator } from 'swr';
 
+const protocol = process.env.NODE_ENV === 'production' ? 'https:' : 'http:';
+
 export default function FormInvitation({
   mutate,
   onCancel,
@@ -30,6 +32,7 @@ export default function FormInvitation({
       jabatanId: '',
       unitId: '',
       roles: '',
+      baseUrl: '',
     },
     initialErrors: {
       // nama: 'nama-error',
@@ -57,6 +60,11 @@ export default function FormInvitation({
   const [projectRole, setProjectRole] = useState(false);
   const [mentorRole, setmentorRole] = useState(false);
   const [superguest, setSuperguest] = useState(false);
+
+  useEffect(() => {
+    form.setFieldValue('baseUrl', protocol + '//' + window.location.host);
+    return () => {};
+  }, []);
 
   useEffect(() => {
     form.setFieldValue('unitId', '');
@@ -97,10 +105,13 @@ export default function FormInvitation({
 
   async function handleSubmit() {
     setSubmitting(true);
+    // const values = form.values
+    // values.email = encodeURIComponent(form.values['email'])
     try {
       await fetchJson('/api/auth/post?sub=create-invitation', createPostData(form.values));
       mutate();
       form.reset();
+      onCancel();
     } catch (error) {
       console.log(error);
     }
@@ -129,7 +140,7 @@ export default function FormInvitation({
 
   async function checkEmail() {
     try {
-      await fetchJson('/api/get?sub=check-email&opt=' + form.values['email']);
+      await fetchJson('/api/get?sub=check-email&opt=' + encodeURIComponent(form.values['email']));
       form.clearFieldError('email');
     } catch (error) {
       const err = error as FetchError;

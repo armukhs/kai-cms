@@ -8,6 +8,7 @@ export default async function checkEmail(req: NextApiRequest, res: NextApiRespon
   }
 
   const email = Array.isArray(opt) ? opt[0] : opt;
+  console.log('Email', email);
 
   try {
     const [user, invitation] = await prisma.$transaction([

@@ -28,8 +28,6 @@ export default async function getMyProjects(req: NextApiRequest, res: NextApiRes
       // },
     });
 
-    console.log(projects[0].Manager);
-
     return res.json(projects);
   } catch (error) {
     return res.status(500).json(error);

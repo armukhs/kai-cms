@@ -3,7 +3,6 @@ import ActivateUser from 'components/ActivateUser/ActivateUser';
 import DeleteteUser from 'components/DeleteteUser/DeleteUser';
 import Layout from 'components/Layout/Layout';
 import Navbar from 'components/Navbar/Navbar';
-import Pojo from 'components/Pojo/Pojo';
 import { SessionUser } from 'lib/session';
 import useAuthApi from 'lib/useAuthApi';
 import { useState } from 'react';
@@ -68,7 +67,7 @@ export default function Users({ user }: { user: SessionUser }) {
           </tbody>
         </Table>
       </div>
-      <Pojo obj={data} />
+      {/* <Pojo obj={data} /> */}
     </Layout>
   );
 }
