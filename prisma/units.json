@@ -1,0 +1,3041 @@
+[
+  {
+    "id": "cl1uzwby501ho3b650uik9zth",
+    "parentId": null,
+    "kode": "C",
+    "level": 1,
+    "tipe": "Direktorat",
+    "nama": "Direktorat Niaga"
+  },
+  {
+    "id": "cl1uzwby501hp3b65fwypzu4t",
+    "parentId": null,
+    "kode": "O",
+    "level": 1,
+    "tipe": "Direktorat",
+    "nama": "Direktorat Operasi"
+  },
+  {
+    "id": "cl1uzwby501hq3b65a382rv8t",
+    "parentId": null,
+    "kode": "T",
+    "level": 1,
+    "tipe": "Direktorat",
+    "nama": "Direktorat Pengelolaan Prasarana"
+  },
+  {
+    "id": "cl1uzwby501hr3b65rkhcnfjz",
+    "parentId": null,
+    "kode": "R",
+    "level": 1,
+    "tipe": "Direktorat",
+    "nama": "Direktorat Rolling Stock"
+  },
+  {
+    "id": "cl1uzwby501hs3b65mu00vccn",
+    "parentId": null,
+    "kode": "S",
+    "level": 1,
+    "tipe": "Direktorat",
+    "nama": "Direktorat Keselamatan dan Keamanan"
+  },
+  {
+    "id": "cl1uzwby501ht3b650ohf06pv",
+    "parentId": null,
+    "kode": "M",
+    "level": 1,
+    "tipe": "Direktorat",
+    "nama": "Direktorat Human Capital and General Affairs"
+  },
+  {
+    "id": "cl1uzwby501hu3b65412xfjey",
+    "parentId": null,
+    "kode": "P",
+    "level": 1,
+    "tipe": "Direktorat",
+    "nama": "Direktorat Perencanaan Strategis dan Pengembangan Usaha"
+  },
+  {
+    "id": "cl1uzwby501hv3b65oxeiu9ph",
+    "parentId": null,
+    "kode": "K",
+    "level": 1,
+    "tipe": "Direktorat",
+    "nama": "Direktorat Keuangan"
+  },
+  {
+    "id": "cl1uzwby501hw3b65eir6h9sy",
+    "parentId": "cl1uzwby501ho3b650uik9zth",
+    "kode": "CP",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Passenger Transport Marketing and Sales"
+  },
+  {
+    "id": "cl1uzwby501hx3b65bifeksx4",
+    "parentId": "cl1uzwby501ho3b650uik9zth",
+    "kode": "CF",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Freight Marketing and Sales"
+  },
+  {
+    "id": "cl1uzwby501hy3b65mz497y4p",
+    "parentId": "cl1uzwby501hp3b65fwypzu4t",
+    "kode": "OT",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Operation"
+  },
+  {
+    "id": "cl1uzwby501hz3b651wksz7ev",
+    "parentId": "cl1uzwby501hq3b65a382rv8t",
+    "kode": "TJ",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Track and Bridge"
+  },
+  {
+    "id": "cl1uzwby501i03b65tg1vpbs1",
+    "parentId": "cl1uzwby501hq3b65a382rv8t",
+    "kode": "TS",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Signalling, Telecommunication, and Electricity"
+  },
+  {
+    "id": "cl1uzwby501i13b65xd46ba44",
+    "parentId": "cl1uzwby501hr3b65rkhcnfjz",
+    "kode": "RR",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Rollingstock Maintenance"
+  },
+  {
+    "id": "cl1uzwby501i23b6538vdowob",
+    "parentId": "cl1uzwby501hr3b65rkhcnfjz",
+    "kode": "RT",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Technical Engineering and Rollingstock Asset"
+  },
+  {
+    "id": "cl1uzwby501i33b65socx79i9",
+    "parentId": "cl1uzwby501hs3b65mu00vccn",
+    "kode": "SK",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Security"
+  },
+  {
+    "id": "cl1uzwby501i43b65u6k9m3wx",
+    "parentId": "cl1uzwby501hs3b65mu00vccn",
+    "kode": "SN",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Non Railway Assets"
+  },
+  {
+    "id": "cl1uzwby501i53b65az6zg6jj",
+    "parentId": "cl1uzwby501ht3b650ohf06pv",
+    "kode": "MT",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Training and Education"
+  },
+  {
+    "id": "cl1uzwby501i63b65woaay063",
+    "parentId": "cl1uzwby501ht3b650ohf06pv",
+    "kode": "MC",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Personal Care, Control, and Development"
+  },
+  {
+    "id": "cl1uzwby501i73b65zod9lq4k",
+    "parentId": "cl1uzwby501hu3b65412xfjey",
+    "kode": "PE",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Existing Business Development"
+  },
+  {
+    "id": "cl1uzwby501i83b65xveno7ig",
+    "parentId": "cl1uzwby501hu3b65412xfjey",
+    "kode": "PP",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi New Business Development and Strategic Projects"
+  },
+  {
+    "id": "cl1uzwby501i93b65sa3xw8bx",
+    "parentId": "cl1uzwby501hu3b65412xfjey",
+    "kode": "PS",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Subsidiary Management"
+  },
+  {
+    "id": "cl1uzwby501ia3b65ko1fc7mx",
+    "parentId": "cl1uzwby501hu3b65412xfjey",
+    "kode": "PB",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Subsidiary Management"
+  },
+  {
+    "id": "cl1uzwby501ib3b65qdagz79r",
+    "parentId": "cl1uzwby501hu3b65412xfjey",
+    "kode": "PA",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Assets Development"
+  },
+  {
+    "id": "cl1uzwby501ic3b65qw3oacqs",
+    "parentId": "cl1uzwby501hv3b65oxeiu9ph",
+    "kode": "KC",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Finance Consolidation"
+  },
+  {
+    "id": "cl1uzwby501id3b65cdx5ebrw",
+    "parentId": "cl1uzwby501hv3b65oxeiu9ph",
+    "kode": "KR",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Revenue and Cost Consolidation"
+  },
+  {
+    "id": "cl1uzwby501ie3b65fckw1n33",
+    "parentId": "cl1uzwby501hv3b65oxeiu9ph",
+    "kode": "KI",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Information System"
+  },
+  {
+    "id": "cl1uzwby501if3b654fh55smg",
+    "parentId": "cl1uzwby501hv3b65oxeiu9ph",
+    "kode": "KG",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Divisi Logistic"
+  },
+  {
+    "id": "cl1uzwby501ig3b655376dna2",
+    "parentId": null,
+    "kode": "UI",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Unit Internal Audit"
+  },
+  {
+    "id": "cl1uzwby501ih3b650bfzmmte",
+    "parentId": null,
+    "kode": "UR",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Unit Manajemen Risiko"
+  },
+  {
+    "id": "cl1uzwby501ii3b65lhyo70pm",
+    "parentId": null,
+    "kode": "UL",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Unit Pusat Hukum"
+  },
+  {
+    "id": "cl1uzwby501ij3b65jdzeyklm",
+    "parentId": null,
+    "kode": "US",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Unit Sekretariat Perusahaan"
+  },
+  {
+    "id": "cl1uzwby501ik3b655x9p7lwh",
+    "parentId": null,
+    "kode": "UP",
+    "level": 2,
+    "tipe": "Divisi",
+    "nama": "Unit Project Management Office"
+  },
+  {
+    "id": "cl1uzwby501il3b652gb6lnv8",
+    "parentId": "cl1uzwby501hw3b65eir6h9sy",
+    "kode": "CPM",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Passenger Marketing"
+  },
+  {
+    "id": "cl1uzwby501im3b65x5fww5qs",
+    "parentId": "cl1uzwby501hw3b65eir6h9sy",
+    "kode": "CPS",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Passenger Ticketing Sales"
+  },
+  {
+    "id": "cl1uzwby501in3b65yj2zfyqz",
+    "parentId": "cl1uzwby501hw3b65eir6h9sy",
+    "kode": "CPD",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Digital Business"
+  },
+  {
+    "id": "cl1uzwby501io3b6546ffkggd",
+    "parentId": "cl1uzwby501hw3b65eir6h9sy",
+    "kode": "CPF",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Passenger Facility"
+  },
+  {
+    "id": "cl1uzwby501ip3b659ff7lk9l",
+    "parentId": "cl1uzwby501hw3b65eir6h9sy",
+    "kode": "CPC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Customer Care"
+  },
+  {
+    "id": "cl1uzwby501iq3b65mim2fjbh",
+    "parentId": "cl1uzwby501hx3b65bifeksx4",
+    "kode": "CFT",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Terminal and Logistics"
+  },
+  {
+    "id": "cl1uzwby501ir3b65vvopxd4h",
+    "parentId": "cl1uzwby501hx3b65bifeksx4",
+    "kode": "CFP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Freight Product Development and Planning"
+  },
+  {
+    "id": "cl1uzwby501is3b65wmeiyex0",
+    "parentId": "cl1uzwby501hx3b65bifeksx4",
+    "kode": "CFS",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Freight Marketing, Sales and Customer Care"
+  },
+  {
+    "id": "cl1uzwby501it3b65e6it2o7o",
+    "parentId": "cl1uzwby501ho3b650uik9zth",
+    "kode": "CCC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Non Transport Commercialization"
+  },
+  {
+    "id": "cl1uzwby501iu3b65jo9fcqy1",
+    "parentId": "cl1uzwby501hy3b65mz497y4p",
+    "kode": "OTR",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Train Operation Planning"
+  },
+  {
+    "id": "cl1uzwby601iv3b651irza937",
+    "parentId": "cl1uzwby501hy3b65mz497y4p",
+    "kode": "OTP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Train Operation Control and Evaluation"
+  },
+  {
+    "id": "cl1uzwby601iw3b65xdhuiav1",
+    "parentId": "cl1uzwby501hy3b65mz497y4p",
+    "kode": "OTA",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Train Crew Management"
+  },
+  {
+    "id": "cl1uzwby601ix3b65teaih197",
+    "parentId": "cl1uzwby501hy3b65mz497y4p",
+    "kode": "OTN",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Non Train Crew Management"
+  },
+  {
+    "id": "cl1uzwby601iy3b65kv7mjt3r",
+    "parentId": "cl1uzwby501hy3b65mz497y4p",
+    "kode": "OTS",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Operation Sumatera Selatan"
+  },
+  {
+    "id": "cl1uzwby601iz3b65bfvo4azy",
+    "parentId": "cl1uzwby501hz3b651wksz7ev",
+    "kode": "TJT",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Track"
+  },
+  {
+    "id": "cl1uzwby601j03b65kitecb57",
+    "parentId": "cl1uzwby501hz3b651wksz7ev",
+    "kode": "TJF",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Facility and Bridge"
+  },
+  {
+    "id": "cl1uzwby601j13b65cn2zi2il",
+    "parentId": "cl1uzwby501i03b65tg1vpbs1",
+    "kode": "TSM",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Signalling Maintenance"
+  },
+  {
+    "id": "cl1uzwby601j23b658frmmq7f",
+    "parentId": "cl1uzwby501i03b65tg1vpbs1",
+    "kode": "TSC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Telecommunication and Electicity Maintenance"
+  },
+  {
+    "id": "cl1uzwby601j33b65d60hhbkz",
+    "parentId": "cl1uzwby501hq3b65a382rv8t",
+    "kode": "TTA",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Infrastructure Assets"
+  },
+  {
+    "id": "cl1uzwby601j43b65nkk9qmg2",
+    "parentId": "cl1uzwby501i13b65xd46ba44",
+    "kode": "RRP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Rollingstock Planning"
+  },
+  {
+    "id": "cl1uzwby601j53b653t2gdsba",
+    "parentId": "cl1uzwby501i13b65xd46ba44",
+    "kode": "RRC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Coaches and Wagons"
+  },
+  {
+    "id": "cl1uzwby601j63b65lexlbn5g",
+    "parentId": "cl1uzwby501i13b65xd46ba44",
+    "kode": "RRT",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Tractive Rail Vehicles"
+  },
+  {
+    "id": "cl1uzwby601j73b65fqvhzqp2",
+    "parentId": "cl1uzwby501i23b6538vdowob",
+    "kode": "RTE",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Technical Engineering of Rollingstock"
+  },
+  {
+    "id": "cl1uzwby601j83b65f4lld35f",
+    "parentId": "cl1uzwby501i23b6538vdowob",
+    "kode": "RTA",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Rollingstock Assets"
+  },
+  {
+    "id": "cl1uzwby601j93b6592ha5nrh",
+    "parentId": "cl1uzwby501i33b65socx79i9",
+    "kode": "SKO",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Security Operation and Administration"
+  },
+  {
+    "id": "cl1uzwby601ja3b6569gm0ek5",
+    "parentId": "cl1uzwby501hs3b65mu00vccn",
+    "kode": "SSS",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Safety"
+  },
+  {
+    "id": "cl1uzwby601jb3b65elnh9sva",
+    "parentId": "cl1uzwby501hs3b65mu00vccn",
+    "kode": "SSD",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Safety Standard"
+  },
+  {
+    "id": "cl1uzwby601jc3b651m0sh98p",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTL",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Lembaga Sertifikasi Profesi PT Kereta Api Indonesia (Persero)"
+  },
+  {
+    "id": "cl1uzwby601jd3b65c5kn1xqb",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTN",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Training Non Railways and Certification"
+  },
+  {
+    "id": "cl1uzwby601je3b658ycjqyrk",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTR",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Planning of Training and Education"
+  },
+  {
+    "id": "cl1uzwby601jf3b65vag3f8lz",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTS",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Signalling, Telecommunication and Electricity Training Center Bandung"
+  },
+  {
+    "id": "cl1uzwby601jg3b651z9u4nzf",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTE",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Tractive Vehicle Engineering Training Center Darman Prasetyo"
+  },
+  {
+    "id": "cl1uzwby601jh3b65qcradhc8",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Railway Engineering Training Center Sofyan Hadi"
+  },
+  {
+    "id": "cl1uzwby601ji3b65nemss3tf",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTO",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Operational and Marketing Training Center Agus Suroto"
+  },
+  {
+    "id": "cl1uzwby601jj3b65y83yv506",
+    "parentId": "cl1uzwby501i63b65woaay063",
+    "kode": "MCA",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen President Personnel Administration"
+  },
+  {
+    "id": "cl1uzwby601jk3b65o8ep0g9n",
+    "parentId": "cl1uzwby501i63b65woaay063",
+    "kode": "MCI",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Industrial Relation"
+  },
+  {
+    "id": "cl1uzwby601jl3b65eoxzx2fy",
+    "parentId": "cl1uzwby501i63b65woaay063",
+    "kode": "MCO",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Organization Development"
+  },
+  {
+    "id": "cl1uzwby601jm3b65l3yl3i81",
+    "parentId": "cl1uzwby501i63b65woaay063",
+    "kode": "MCD",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Assessment and Human Resources Development"
+  },
+  {
+    "id": "cl1uzwby601jn3b65rfxxrvsm",
+    "parentId": "cl1uzwby501ht3b650ohf06pv",
+    "kode": "MMH",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Health"
+  },
+  {
+    "id": "cl1uzwby601jo3b655cxstjj8",
+    "parentId": "cl1uzwby501i73b65zod9lq4k",
+    "kode": "PEP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Development Planning"
+  },
+  {
+    "id": "cl1uzwby601jp3b65cbg9dhyc",
+    "parentId": "cl1uzwby501i73b65zod9lq4k",
+    "kode": "PEE",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Technical Engineering of Infrastructure"
+  },
+  {
+    "id": "cl1uzwby601jq3b652w3fvrpf",
+    "parentId": "cl1uzwby501i73b65zod9lq4k",
+    "kode": "PEI",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Investment Planning of Existing Business"
+  },
+  {
+    "id": "cl1uzwby601jr3b651cklnoxn",
+    "parentId": "cl1uzwby501i73b65zod9lq4k",
+    "kode": "PEC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Existing Business Development Controlling"
+  },
+  {
+    "id": "cl1uzwby601js3b659bogarzc",
+    "parentId": "cl1uzwby501i83b65xveno7ig",
+    "kode": "PPS",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Strategic Project Development"
+  },
+  {
+    "id": "cl1uzwby601jt3b65pu3lct0j",
+    "parentId": "cl1uzwby501i83b65xveno7ig",
+    "kode": "PPU",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Urban Transport Development"
+  },
+  {
+    "id": "cl1uzwby601ju3b65m7dcoq53",
+    "parentId": "cl1uzwby501i83b65xveno7ig",
+    "kode": "PPC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen New Business Development Controlling"
+  },
+  {
+    "id": "cl1uzwby601jv3b65knq38i4j",
+    "parentId": "cl1uzwby501i93b65sa3xw8bx",
+    "kode": "PSM",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Subsidiary Monitoring and Evaluation"
+  },
+  {
+    "id": "cl1uzwby601jw3b65v3qdj9h5",
+    "parentId": "cl1uzwby501ia3b65ko1fc7mx",
+    "kode": "PBA",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Architecture and Preservation"
+  },
+  {
+    "id": "cl1uzwby601jx3b657hhhgnx1",
+    "parentId": "cl1uzwby501ia3b65ko1fc7mx",
+    "kode": "PBB",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Building"
+  },
+  {
+    "id": "cl1uzwby601jy3b65tz1d0bzt",
+    "parentId": "cl1uzwby501ib3b65qdagz79r",
+    "kode": "PAD",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Assets Development Planning"
+  },
+  {
+    "id": "cl1uzwby601jz3b65y1glqa9r",
+    "parentId": "cl1uzwby501ib3b65qdagz79r",
+    "kode": "PAP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Assets Partnership"
+  },
+  {
+    "id": "cl1uzwby601k03b65h5fsupzz",
+    "parentId": "cl1uzwby501i83b65xveno7ig",
+    "kode": "PPA",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Non Railway Assets Administration"
+  },
+  {
+    "id": "cl1uzwby601k13b65h249ba1f",
+    "parentId": "cl1uzwby501ic3b65qw3oacqs",
+    "kode": "KCF",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Corporate Finance"
+  },
+  {
+    "id": "cl1uzwby601k23b65oyo71pw0",
+    "parentId": "cl1uzwby501ic3b65qw3oacqs",
+    "kode": "KCA",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Budgeting"
+  },
+  {
+    "id": "cl1uzwby601k33b65twblrvdx",
+    "parentId": "cl1uzwby501ic3b65qw3oacqs",
+    "kode": "KCW",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Financial Administration"
+  },
+  {
+    "id": "cl1uzwby601k43b65wukpafeu",
+    "parentId": "cl1uzwby501ic3b65qw3oacqs",
+    "kode": "KCC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen General Accounting"
+  },
+  {
+    "id": "cl1uzwby601k53b65s3gulg8g",
+    "parentId": "cl1uzwby501ic3b65qw3oacqs",
+    "kode": "KCT",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Tax"
+  },
+  {
+    "id": "cl1uzwby601k63b65pvcspsdy",
+    "parentId": "cl1uzwby501id3b65cdx5ebrw",
+    "kode": "KRP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen PSO, IMO and TAC"
+  },
+  {
+    "id": "cl1uzwby601k73b65mtlkhl4g",
+    "parentId": "cl1uzwby501id3b65cdx5ebrw",
+    "kode": "KRB",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Cost Accounting"
+  },
+  {
+    "id": "cl1uzwby601k83b65l3vtlse9",
+    "parentId": "cl1uzwby501id3b65cdx5ebrw",
+    "kode": "KRR",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Revenue and Cost Comptroller"
+  },
+  {
+    "id": "cl1uzwby601k93b657jkr8gxd",
+    "parentId": "cl1uzwby501ie3b65fckw1n33",
+    "kode": "KIP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen IT Planning and Governance"
+  },
+  {
+    "id": "cl1uzwby601ka3b65cs4xb6ii",
+    "parentId": "cl1uzwby501ie3b65fckw1n33",
+    "kode": "KID",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen IT Design and Development"
+  },
+  {
+    "id": "cl1uzwby601kb3b6551vit09t",
+    "parentId": "cl1uzwby501ie3b65fckw1n33",
+    "kode": "KIO",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen IT Operation"
+  },
+  {
+    "id": "cl1uzwby601kc3b65o1pm7rbg",
+    "parentId": "cl1uzwby501ie3b65fckw1n33",
+    "kode": "KIR",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Enterprise Resource Planning"
+  },
+  {
+    "id": "cl1uzwby601kd3b650jvygyk2",
+    "parentId": "cl1uzwby501if3b654fh55smg",
+    "kode": "KGR",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Rollingstock Material Logistic"
+  },
+  {
+    "id": "cl1uzwby601ke3b65pvykkugz",
+    "parentId": "cl1uzwby501if3b654fh55smg",
+    "kode": "KGI",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Infrastructure and General Material Logistic"
+  },
+  {
+    "id": "cl1uzwby601kf3b65hs6ozvn8",
+    "parentId": "cl1uzwby501if3b654fh55smg",
+    "kode": "KGS",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Material Stock"
+  },
+  {
+    "id": "cl1uzwby601kg3b65bbx3ruq1",
+    "parentId": "cl1uzwby501if3b654fh55smg",
+    "kode": "KGU",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Pengadaan Barang dan Jasa"
+  },
+  {
+    "id": "cl1uzwby601kh3b65x3en6ajr",
+    "parentId": "cl1uzwby501ig3b655376dna2",
+    "kode": "UI0",
+    "tipe": "Departemen",
+    "nama": "Departemen General Audit 1"
+  },
+  {
+    "id": "cl1uzwby601ki3b65wmesinnf",
+    "parentId": "cl1uzwby501ig3b655376dna2",
+    "kode": "UIP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen General Audit 1"
+  },
+  {
+    "id": "cl1uzwby601kj3b655s7gwyu2",
+    "parentId": "cl1uzwby501ig3b655376dna2",
+    "kode": "UIS",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Special Audit"
+  },
+  {
+    "id": "cl1uzwby601kk3b65anthsb7i",
+    "parentId": "cl1uzwby501ig3b655376dna2",
+    "kode": "UIA",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Evaluation, Monitoring & Administration"
+  },
+  {
+    "id": "cl1uzwby601kl3b659xlmgebx",
+    "parentId": "cl1uzwby501ih3b650bfzmmte",
+    "kode": "URP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Risiko Bidang Usaha Angkutan Penumpang"
+  },
+  {
+    "id": "cl1uzwby601km3b65v3w1r8n5",
+    "parentId": "cl1uzwby501ih3b650bfzmmte",
+    "kode": "URB",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Risiko Bidang Usaha Angkutan Barang"
+  },
+  {
+    "id": "cl1uzwby601kn3b65y8e6q078",
+    "parentId": "cl1uzwby501ih3b650bfzmmte",
+    "kode": "URN",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Risiko Bidang Usaha Non Angkutan"
+  },
+  {
+    "id": "cl1uzwby601ko3b655ylv3qmb",
+    "parentId": "cl1uzwby501ih3b650bfzmmte",
+    "kode": "URD",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Dissemination and Risk Management Procedures"
+  },
+  {
+    "id": "cl1uzwby601kp3b65wjqfxmqh",
+    "parentId": "cl1uzwby501ih3b650bfzmmte",
+    "kode": "URC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Risk Control and Mitigations"
+  },
+  {
+    "id": "cl1uzwby601kq3b659ig6gapm",
+    "parentId": "cl1uzwby501ii3b65lhyo70pm",
+    "kode": "ULB",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Legal Business"
+  },
+  {
+    "id": "cl1uzwby601kr3b65j47f72pt",
+    "parentId": "cl1uzwby501ii3b65lhyo70pm",
+    "kode": "ULP",
+    "level": 3,
+    "tipe": "Seksi",
+    "nama": "Departemen Policy and Regulations"
+  },
+  {
+    "id": "cl1uzwby601ks3b65fb55adhp",
+    "parentId": "cl1uzwby501ii3b65lhyo70pm",
+    "kode": "ULL",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Legal Dispute Resolution"
+  },
+  {
+    "id": "cl1uzwby601kt3b65gfmmdkva",
+    "parentId": "cl1uzwby501ij3b65jdzeyklm",
+    "kode": "USI",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Investor Relations"
+  },
+  {
+    "id": "cl1uzwby601ku3b65qecj8622",
+    "parentId": "cl1uzwby501ij3b65jdzeyklm",
+    "kode": "USD",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Corporate Document Management"
+  },
+  {
+    "id": "cl1uzwby601kv3b655wul7sb4",
+    "parentId": "cl1uzwby501ij3b65jdzeyklm",
+    "kode": "USP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Public Relations"
+  },
+  {
+    "id": "cl1uzwby601kw3b65knjre6yl",
+    "parentId": "cl1uzwby501ij3b65jdzeyklm",
+    "kode": "USQ",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Quality Assurance and Good Corporate Governance"
+  },
+  {
+    "id": "cl1uzwby601kx3b65pxaawupp",
+    "parentId": "cl1uzwby501ij3b65jdzeyklm",
+    "kode": "USC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Corporate Culture and General Facilities"
+  },
+  {
+    "id": "cl1uzwby601ky3b657a854y5w",
+    "parentId": "cl1uzwby501ij3b65jdzeyklm",
+    "kode": "USS",
+    "level": 3,
+    "tipe": "Seksi",
+    "nama": "Departemen Corporate Culture and General Facilities"
+  },
+  {
+    "id": "cl1uzwby601kz3b65md6u0sg4",
+    "parentId": "cl1uzwby501ik3b655x9p7lwh",
+    "kode": "UPC",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Change Management"
+  },
+  {
+    "id": "cl1uzwby601l03b65k4gtt83r",
+    "parentId": "cl1uzwby501ik3b655x9p7lwh",
+    "kode": "UPP",
+    "level": 3,
+    "tipe": "Departemen",
+    "nama": "Departemen Project Management"
+  },
+  {
+    "id": "cl1uzwby601l13b65n3wkjdsa",
+    "parentId": "cl1uzwby501il3b652gb6lnv8",
+    "kode": "CPMF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Passenger Forecasting and Evaluation"
+  },
+  {
+    "id": "cl1uzwby601l23b65ng3k3b75",
+    "parentId": "cl1uzwby501il3b652gb6lnv8",
+    "kode": "CPMT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Passenger Regulation and Tariff"
+  },
+  {
+    "id": "cl1uzwby601l33b65bwlh8ofn",
+    "parentId": "cl1uzwby501il3b652gb6lnv8",
+    "kode": "CPMR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Research and Strategic Marketing"
+  },
+  {
+    "id": "cl1uzwby601l43b65ns4g1zvy",
+    "parentId": "cl1uzwby501il3b652gb6lnv8",
+    "kode": "CPMM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Marketing Communication"
+  },
+  {
+    "id": "cl1uzwby601l53b65o0ezsdqf",
+    "parentId": "cl1uzwby501im3b65x5fww5qs",
+    "kode": "CPSS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Ticketing Logistic and Infrastucture"
+  },
+  {
+    "id": "cl1uzwby601l63b65g1hv8b6c",
+    "parentId": "cl1uzwby501im3b65x5fww5qs",
+    "kode": "CPSD",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Ticket Sales and Channel Distribution"
+  },
+  {
+    "id": "cl1uzwby601l73b65zeh40fwn",
+    "parentId": "cl1uzwby501im3b65x5fww5qs",
+    "kode": "CPSC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Ticketing Center"
+  },
+  {
+    "id": "cl1uzwby601l83b65sbyufzrw",
+    "parentId": "cl1uzwby501im3b65x5fww5qs",
+    "kode": "CPSG",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Group Customer and Support Service"
+  },
+  {
+    "id": "cl1uzwby601l93b6595v92nhn",
+    "parentId": "cl1uzwby501in3b65yj2zfyqz",
+    "kode": "CPDD",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Digital Business Development"
+  },
+  {
+    "id": "cl1uzwby601la3b655oys37i9",
+    "parentId": "cl1uzwby501in3b65yj2zfyqz",
+    "kode": "CPDO",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Digital Business Operation"
+  },
+  {
+    "id": "cl1uzwby601lb3b65rtn2mtsz",
+    "parentId": "cl1uzwby501in3b65yj2zfyqz",
+    "kode": "CPDS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Settlement"
+  },
+  {
+    "id": "cl1uzwby601lc3b652z3m7hk7",
+    "parentId": "cl1uzwby501in3b65yj2zfyqz",
+    "kode": "CPDC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Card Management"
+  },
+  {
+    "id": "cl1uzwby601ld3b65ruwda3ag",
+    "parentId": "cl1uzwby501io3b6546ffkggd",
+    "kode": "CPFB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Facility and Cleanliness on Board"
+  },
+  {
+    "id": "cl1uzwby601le3b65wq3zdamr",
+    "parentId": "cl1uzwby501io3b6546ffkggd",
+    "kode": "CPFS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Facility and Cleanliness on Station"
+  },
+  {
+    "id": "cl1uzwby601lf3b65asnfxc1g",
+    "parentId": "cl1uzwby501io3b6546ffkggd",
+    "kode": "CPFC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Service Operation Control"
+  },
+  {
+    "id": "cl1uzwby601lg3b65jei60fp2",
+    "parentId": "cl1uzwby501io3b6546ffkggd",
+    "kode": "CPFQ",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Facility and Cleanliness Quality Assurance"
+  },
+  {
+    "id": "cl1uzwby601lh3b65buriypeg",
+    "parentId": "cl1uzwby501ip3b659ff7lk9l",
+    "kode": "CPCS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Customer Service on Station"
+  },
+  {
+    "id": "cl1uzwby601li3b65dyg9atn4",
+    "parentId": "cl1uzwby501ip3b659ff7lk9l",
+    "kode": "CPCT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Customer Service on Train"
+  },
+  {
+    "id": "cl1uzwby601lj3b658j432g3n",
+    "parentId": "cl1uzwby501ip3b659ff7lk9l",
+    "kode": "CPCA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Quality Service Assurance"
+  },
+  {
+    "id": "cl1uzwby601lk3b65uffi9ybe",
+    "parentId": "cl1uzwby501ip3b659ff7lk9l",
+    "kode": "CPCC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Call Center"
+  },
+  {
+    "id": "cl1uzwby601ll3b65lx6teviw",
+    "parentId": "cl1uzwby501ip3b659ff7lk9l",
+    "kode": "CPCR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Customer Relation and Digital Community"
+  },
+  {
+    "id": "cl1uzwby601lm3b657wsqg4t2",
+    "parentId": "cl1uzwby501ip3b659ff7lk9l",
+    "kode": "CPCL",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Customer Loyalty"
+  },
+  {
+    "id": "cl1uzwby601ln3b65dkumd7ds",
+    "parentId": "cl1uzwby501iq3b65mim2fjbh",
+    "kode": "CFTL",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Strategic Logistics"
+  },
+  {
+    "id": "cl1uzwby601lo3b65iox984nd",
+    "parentId": "cl1uzwby501iq3b65mim2fjbh",
+    "kode": "CFTT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Strategic Terminal"
+  },
+  {
+    "id": "cl1uzwby601lp3b65xqsgdxjt",
+    "parentId": "cl1uzwby501ir3b65vvopxd4h",
+    "kode": "CFPI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Freight Product Infrastructure"
+  },
+  {
+    "id": "cl1uzwby601lq3b65hwp32jw9",
+    "parentId": "cl1uzwby501ir3b65vvopxd4h",
+    "kode": "CFPE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Evaluation and Data Information"
+  },
+  {
+    "id": "cl1uzwby601lr3b65f6eucwoc",
+    "parentId": "cl1uzwby501ir3b65vvopxd4h",
+    "kode": "CFPR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Freight Product Development and Rollingstock"
+  },
+  {
+    "id": "cl1uzwby601ls3b65zd76o0h0",
+    "parentId": "cl1uzwby501is3b65wmeiyex0",
+    "kode": "CFSP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Freight Pricing"
+  },
+  {
+    "id": "cl1uzwby601lt3b657wnpt7wk",
+    "parentId": "cl1uzwby501is3b65wmeiyex0",
+    "kode": "CFSC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Freight Customer Care"
+  },
+  {
+    "id": "cl1uzwby601lu3b65ekiap4pn",
+    "parentId": "cl1uzwby501is3b65wmeiyex0",
+    "kode": "CFSS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Freight Contract"
+  },
+  {
+    "id": "cl1uzwby601lv3b65xnlkmupr",
+    "parentId": "cl1uzwby501is3b65wmeiyex0",
+    "kode": "CFSM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Freight Marketing and Sales"
+  },
+  {
+    "id": "cl1uzwby601lw3b65xjn7trsf",
+    "parentId": "cl1uzwby501it3b65e6it2o7o",
+    "kode": "CCCR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Row And Station Commercialization"
+  },
+  {
+    "id": "cl1uzwby601lx3b65is7pb5dw",
+    "parentId": "cl1uzwby501it3b65e6it2o7o",
+    "kode": "CCCA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Advertising, Website And Documentation"
+  },
+  {
+    "id": "cl1uzwby601ly3b65l7t9m2kz",
+    "parentId": "cl1uzwby501it3b65e6it2o7o",
+    "kode": "CCCN",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Non Row Commercialization"
+  },
+  {
+    "id": "cl1uzwby601lz3b65qawfy0w1",
+    "parentId": "cl1uzwby501iu3b65jo9fcqy1",
+    "kode": "OTRR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Rollingstock Operation Planning"
+  },
+  {
+    "id": "cl1uzwby601m03b65c4nnnq21",
+    "parentId": "cl1uzwby501iu3b65jo9fcqy1",
+    "kode": "OTRP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Traffic Planning"
+  },
+  {
+    "id": "cl1uzwby601m13b656ksfxdt9",
+    "parentId": "cl1uzwby601iv3b651irza937",
+    "kode": "OTPT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Traffic Control"
+  },
+  {
+    "id": "cl1uzwby601m23b65lfgl1wbg",
+    "parentId": "cl1uzwby601iv3b651irza937",
+    "kode": "OTPR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Rollingstock Operation Control and Evaluation"
+  },
+  {
+    "id": "cl1uzwby601m33b65voit8bmh",
+    "parentId": "cl1uzwby601iv3b651irza937",
+    "kode": "OTPE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Traffic Evaluation"
+  },
+  {
+    "id": "cl1uzwby601m43b65jnfp3pul",
+    "parentId": "cl1uzwby601iw3b65xdhuiav1",
+    "kode": "OTAP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Train Crew Planning"
+  },
+  {
+    "id": "cl1uzwby601m53b6550jtq0rf",
+    "parentId": "cl1uzwby601iw3b65xdhuiav1",
+    "kode": "OTAC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Train Crew Control and Evaluation"
+  },
+  {
+    "id": "cl1uzwby601m63b65s3rsajym",
+    "parentId": "cl1uzwby601ix3b65teaih197",
+    "kode": "OTNP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Non Train Crew Planning and Evaluation"
+  },
+  {
+    "id": "cl1uzwby601m73b65fj7hblcm",
+    "parentId": "cl1uzwby601ix3b65teaih197",
+    "kode": "OTNC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Non Train Crew Control"
+  },
+  {
+    "id": "cl1uzwby601m83b65cqepher4",
+    "parentId": "cl1uzwby601iy3b65kv7mjt3r",
+    "kode": "OTSR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Traffic Plan and Evaluation Sumatera Selatan"
+  },
+  {
+    "id": "cl1uzwby601m93b65ox6d1eao",
+    "parentId": "cl1uzwby601iy3b65kv7mjt3r",
+    "kode": "OTSP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Traffic Control Sumatera Selatan"
+  },
+  {
+    "id": "cl1uzwby601ma3b65u2kxittj",
+    "parentId": "cl1uzwby601iz3b65bfvo4azy",
+    "kode": "TJTM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Track Maintenance"
+  },
+  {
+    "id": "cl1uzwby601mb3b657vh23v72",
+    "parentId": "cl1uzwby601iz3b65bfvo4azy",
+    "kode": "TJTE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Track Evaluation"
+  },
+  {
+    "id": "cl1uzwby601mc3b65rga2tq2j",
+    "parentId": "cl1uzwby601j03b65kitecb57",
+    "kode": "TJFF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Facility Maintenance"
+  },
+  {
+    "id": "cl1uzwby601md3b65lj6sbqa8",
+    "parentId": "cl1uzwby601j03b65kitecb57",
+    "kode": "TJFB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Bridge Maintenance"
+  },
+  {
+    "id": "cl1uzwby601me3b65k0j4vzet",
+    "parentId": "cl1uzwby601j03b65kitecb57",
+    "kode": "TJFE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Facility and Bridge Evaluation"
+  },
+  {
+    "id": "cl1uzwby601mf3b65ea75vdhp",
+    "parentId": "cl1uzwby501hz3b651wksz7ev",
+    "kode": "TJJP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Track and Bridge Planning and Budgeting"
+  },
+  {
+    "id": "cl1uzwby601mg3b6587l966nr",
+    "parentId": "cl1uzwby501hz3b651wksz7ev",
+    "kode": "TJJK",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "UPT Balai Yasa Jembatan Kiaracondong"
+  },
+  {
+    "id": "cl1uzwby601mh3b653i6vtjh2",
+    "parentId": "cl1uzwby501hz3b651wksz7ev",
+    "kode": "TJJC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "UPT Balai Yasa Mekanik Jalan Rel Cirebonprujakan"
+  },
+  {
+    "id": "cl1uzwby601mi3b6551dxeojp",
+    "parentId": "cl1uzwby501hz3b651wksz7ev",
+    "kode": "TJJM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "UPT Balai Yasa Mekanik Jalan Rel Prabumulih"
+  },
+  {
+    "id": "cl1uzwby601mj3b65hhp3mrfn",
+    "parentId": "cl1uzwby601j13b65cn2zi2il",
+    "kode": "TSMM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Mechanical Signalling Maintenance"
+  },
+  {
+    "id": "cl1uzwby601mk3b65i2rcejrd",
+    "parentId": "cl1uzwby601j13b65cn2zi2il",
+    "kode": "TSME",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Electrical Signalling Maintenance"
+  },
+  {
+    "id": "cl1uzwby601ml3b65ecih4np6",
+    "parentId": "cl1uzwby601j13b65cn2zi2il",
+    "kode": "TSMW",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Wayside Equipment Maintenance"
+  },
+  {
+    "id": "cl1uzwby601mm3b65yfe1dp36",
+    "parentId": "cl1uzwby601j13b65cn2zi2il",
+    "kode": "TSMT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Train Control Maintenance"
+  },
+  {
+    "id": "cl1uzwby601mn3b65248siodw",
+    "parentId": "cl1uzwby501i03b65tg1vpbs1",
+    "kode": "TSSP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi STE Program, Budgeting, Evaluation, and Technical Support"
+  },
+  {
+    "id": "cl1uzwby601mo3b65qepca5dw",
+    "parentId": "cl1uzwby501i03b65tg1vpbs1",
+    "kode": "TSSS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "UPT Balai Yasa Sintelis dan LAA CIKUDPATEUH"
+  },
+  {
+    "id": "cl1uzwby601mp3b65boggep99",
+    "parentId": "cl1uzwby601j23b658frmmq7f",
+    "kode": "TSCC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Overhead Catenary and Third Rail Maintenance"
+  },
+  {
+    "id": "cl1uzwby601mq3b65tcdei3on",
+    "parentId": "cl1uzwby601j23b658frmmq7f",
+    "kode": "TSCP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Substation and Power Supply Maintenance"
+  },
+  {
+    "id": "cl1uzwby601mr3b65pfhn6czy",
+    "parentId": "cl1uzwby601j23b658frmmq7f",
+    "kode": "TSCN",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Telecommunication Network Maintenance"
+  },
+  {
+    "id": "cl1uzwby601ms3b65panqlwuf",
+    "parentId": "cl1uzwby601j23b658frmmq7f",
+    "kode": "TSCS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Telecommunication System Maintenance"
+  },
+  {
+    "id": "cl1uzwby601mt3b65duzdt8ur",
+    "parentId": "cl1uzwby601j33b65d60hhbkz",
+    "kode": "TTAT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Track Assets and Track Geometry"
+  },
+  {
+    "id": "cl1uzwby601mu3b65ah6481oe",
+    "parentId": "cl1uzwby601j33b65d60hhbkz",
+    "kode": "TTAB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Bridge and Building Assets"
+  },
+  {
+    "id": "cl1uzwby601mv3b652vzjygwq",
+    "parentId": "cl1uzwby601j33b65d60hhbkz",
+    "kode": "TTAE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Track and Bridge Engineering Maintenance"
+  },
+  {
+    "id": "cl1uzwby601mw3b65htb44t4f",
+    "parentId": "cl1uzwby601j33b65d60hhbkz",
+    "kode": "TTAS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Signalling, Telecommunication, and Electricity Assets"
+  },
+  {
+    "id": "cl1uzwby601mx3b65dwhd5q7c",
+    "parentId": "cl1uzwby601j33b65d60hhbkz",
+    "kode": "TTAC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Signalling, Telecommunication, and Electricity Engineering Maintenance"
+  },
+  {
+    "id": "cl1uzwby601my3b65k4h3629i",
+    "parentId": "cl1uzwby601j43b65nkk9qmg2",
+    "kode": "RRPT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Maintenance Planning and Budgeting TRV"
+  },
+  {
+    "id": "cl1uzwby701mz3b65016v1dnr",
+    "parentId": "cl1uzwby601j43b65nkk9qmg2",
+    "kode": "RRPC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Maintenance Planning and Budgeting Coaches"
+  },
+  {
+    "id": "cl1uzwby701n03b65xtoo1fse",
+    "parentId": "cl1uzwby601j43b65nkk9qmg2",
+    "kode": "RRPW",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Maintenance Planning and Budgeting Wagons"
+  },
+  {
+    "id": "cl1uzwby701n13b65iauu25a6",
+    "parentId": "cl1uzwby601j43b65nkk9qmg2",
+    "kode": "RRPF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Maintenance Planning and Budgeting Facilities and K3L"
+  },
+  {
+    "id": "cl1uzwby701n23b65t585mvns",
+    "parentId": "cl1uzwby601j43b65nkk9qmg2",
+    "kode": "RRPM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Maintenance Standard and Evaluation"
+  },
+  {
+    "id": "cl1uzwby701n33b65by0fmfzj",
+    "parentId": "cl1uzwby601j53b653t2gdsba",
+    "kode": "RRCL",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Coaches and Wagons Line Maintenance"
+  },
+  {
+    "id": "cl1uzwby701n43b65nz75w84f",
+    "parentId": "cl1uzwby601j53b653t2gdsba",
+    "kode": "RRCO",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Coaches and Wagons Overhaul"
+  },
+  {
+    "id": "cl1uzwby701n53b65uhdnucqc",
+    "parentId": "cl1uzwby601j53b653t2gdsba",
+    "kode": "RRCP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Power Car Overhaul and Line Maintenance"
+  },
+  {
+    "id": "cl1uzwby701n63b65nuv6oxg4",
+    "parentId": "cl1uzwby601j53b653t2gdsba",
+    "kode": "RRCF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Coaches and Wagons Maintenance Facilities"
+  },
+  {
+    "id": "cl1uzwby701n73b655o4l8y49",
+    "parentId": "cl1uzwby601j63b65lexlbn5g",
+    "kode": "RRTL",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Locomotives Overhaul and Line Maintenance"
+  },
+  {
+    "id": "cl1uzwby701n83b659slster2",
+    "parentId": "cl1uzwby601j63b65lexlbn5g",
+    "kode": "RRTO",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi DMU/DEMU/EMU Overhaul"
+  },
+  {
+    "id": "cl1uzwby701n93b65c7rgnojc",
+    "parentId": "cl1uzwby601j63b65lexlbn5g",
+    "kode": "RRTM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi DMU/DEMU/EMU Line Maintenance"
+  },
+  {
+    "id": "cl1uzwby701na3b65uqy6pvd1",
+    "parentId": "cl1uzwby601j63b65lexlbn5g",
+    "kode": "RRTF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Tractive Rail Vehicles Maintenance Facilities"
+  },
+  {
+    "id": "cl1uzwby701nb3b65x4o424ns",
+    "parentId": "cl1uzwby601j73b65fqvhzqp2",
+    "kode": "RTED",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Technical Development and Cooperation Program"
+  },
+  {
+    "id": "cl1uzwby701nc3b65z0dzn43m",
+    "parentId": "cl1uzwby601j73b65fqvhzqp2",
+    "kode": "RTER",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Traction/ Rolling Stock Reliability"
+  },
+  {
+    "id": "cl1uzwby701nd3b650n5oqms8",
+    "parentId": "cl1uzwby601j73b65fqvhzqp2",
+    "kode": "RTEE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Traction / Rolling Stock Engineering"
+  },
+  {
+    "id": "cl1uzwby701ne3b652n28a5l4",
+    "parentId": "cl1uzwby601j83b65f4lld35f",
+    "kode": "RTAC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Rollingstock Assets Worthiness Certification"
+  },
+  {
+    "id": "cl1uzwby701nf3b65q7tx5ovn",
+    "parentId": "cl1uzwby601j83b65f4lld35f",
+    "kode": "RTAE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Rollingstock Assets Control and Evaluation"
+  },
+  {
+    "id": "cl1uzwby701ng3b65ygjm90ui",
+    "parentId": "cl1uzwby601j83b65f4lld35f",
+    "kode": "RTAF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Facilities Rollingstock Assets and Rollingstock Assets Conservation"
+  },
+  {
+    "id": "cl1uzwby701nh3b65r9ze0dhy",
+    "parentId": "cl1uzwby601j93b6592ha5nrh",
+    "kode": "SKOA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Security Administration"
+  },
+  {
+    "id": "cl1uzwby701ni3b65wzy7jim4",
+    "parentId": "cl1uzwby601j93b6592ha5nrh",
+    "kode": "SKOB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Security On Board"
+  },
+  {
+    "id": "cl1uzwby701nj3b65so39au6l",
+    "parentId": "cl1uzwby601j93b6592ha5nrh",
+    "kode": "SKOV",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Security Vital Object and Assets"
+  },
+  {
+    "id": "cl1uzwby701nk3b6528s0rsx5",
+    "parentId": "cl1uzwby601j93b6592ha5nrh",
+    "kode": "SKOI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Security Intelligence"
+  },
+  {
+    "id": "cl1uzwby701nl3b655kc35uzp",
+    "parentId": "cl1uzwby601ja3b6569gm0ek5",
+    "kode": "SSSH",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Occupational Health and Environment"
+  },
+  {
+    "id": "cl1uzwby701nm3b65fmnuvq1d",
+    "parentId": "cl1uzwby601ja3b6569gm0ek5",
+    "kode": "SSSE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Environment"
+  },
+  {
+    "id": "cl1uzwby701nn3b65s02ee8l0",
+    "parentId": "cl1uzwby601ja3b6569gm0ek5",
+    "kode": "SSSO",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Occupational Health & Safety"
+  },
+  {
+    "id": "cl1uzwby701no3b65nvijyunl",
+    "parentId": "cl1uzwby601ja3b6569gm0ek5",
+    "kode": "SSSM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Safety Management Office"
+  },
+  {
+    "id": "cl1uzwby701np3b65vqlf5f2d",
+    "parentId": "cl1uzwby601ja3b6569gm0ek5",
+    "kode": "SSSA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Safety Audit And Investigation"
+  },
+  {
+    "id": "cl1uzwby701nq3b65e35knb5e",
+    "parentId": "cl1uzwby601ja3b6569gm0ek5",
+    "kode": "SSSI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Safety Inspection"
+  },
+  {
+    "id": "cl1uzwby701nr3b65zfn60hym",
+    "parentId": "cl1uzwby601ja3b6569gm0ek5",
+    "kode": "SSSR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Safety Review and Recommendation"
+  },
+  {
+    "id": "cl1uzwby701ns3b65ozx1vm4j",
+    "parentId": "cl1uzwby601jb3b65elnh9sva",
+    "kode": "SSDI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Safety Standard Of Infrastructure Maintenance"
+  },
+  {
+    "id": "cl1uzwby701nt3b65654yr0gg",
+    "parentId": "cl1uzwby601jb3b65elnh9sva",
+    "kode": "SSDT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Safety Standard Of Railway Traffic Operation"
+  },
+  {
+    "id": "cl1uzwby701nu3b65gche0au2",
+    "parentId": "cl1uzwby601jb3b65elnh9sva",
+    "kode": "SSDR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Safety Standard Of Rollingstock Maintenance"
+  },
+  {
+    "id": "cl1uzwby701nv3b65jp7g46o9",
+    "parentId": "cl1uzwby501i43b65u6k9m3wx",
+    "kode": "SNNB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Program, Budgeting, and Certification"
+  },
+  {
+    "id": "cl1uzwby701nw3b65qysw8lu1",
+    "parentId": "cl1uzwby501i43b65u6k9m3wx",
+    "kode": "SNNP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Problem Assets Handling and Assets Control"
+  },
+  {
+    "id": "cl1uzwby701nx3b65veqhy1c7",
+    "parentId": "cl1uzwby601jc3b651m0sh98p",
+    "kode": "MTLM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Bidang Manajemen Mutu"
+  },
+  {
+    "id": "cl1uzwby701ny3b65ya3of82j",
+    "parentId": "cl1uzwby601jc3b651m0sh98p",
+    "kode": "MTLS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Bidang Sertifikasi"
+  },
+  {
+    "id": "cl1uzwby701nz3b652ctd75bi",
+    "parentId": "cl1uzwby601jc3b651m0sh98p",
+    "kode": "MTLA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Bidang Administrasi"
+  },
+  {
+    "id": "cl1uzwby701o03b652farx32b",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTAF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Administration and Facility Training Center"
+  },
+  {
+    "id": "cl1uzwby701o13b65bwkwy50c",
+    "parentId": "cl1uzwby501i53b65az6zg6jj",
+    "kode": "MTTS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Sriwijaya Training Center Ascep Sunarto"
+  },
+  {
+    "id": "cl1uzwby701o23b654t0j81g5",
+    "parentId": "cl1uzwby601jd3b65c5kn1xqb",
+    "kode": "MTNC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Certification and Cooperation"
+  },
+  {
+    "id": "cl1uzwby701o33b652693awgi",
+    "parentId": "cl1uzwby601jd3b65c5kn1xqb",
+    "kode": "MTNT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Training Non Railways"
+  },
+  {
+    "id": "cl1uzwby701o43b65p295ci7r",
+    "parentId": "cl1uzwby601je3b658ycjqyrk",
+    "kode": "MTRP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Program, Standardization and Evaluation"
+  },
+  {
+    "id": "cl1uzwby701o53b65ldmgzxaa",
+    "parentId": "cl1uzwby601je3b658ycjqyrk",
+    "kode": "MTRC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Curriculum"
+  },
+  {
+    "id": "cl1uzwby701o63b65nhi34rfp",
+    "parentId": "cl1uzwby601je3b658ycjqyrk",
+    "kode": "MTRE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi E-Learning"
+  },
+  {
+    "id": "cl1uzwby701o73b65xcqeahtu",
+    "parentId": "cl1uzwby601jf3b65vag3f8lz",
+    "kode": "MTSI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Implementation Training Center: Signalling, Telecommunication and Electricity"
+  },
+  {
+    "id": "cl1uzwby701o83b65bzbvfdaj",
+    "parentId": "cl1uzwby601jf3b65vag3f8lz",
+    "kode": "MTSA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Administration and Facility Training Center: Signalling, Telecommunication and Electricity"
+  },
+  {
+    "id": "cl1uzwby701o93b6526vtkadd",
+    "parentId": "cl1uzwby601jg3b651z9u4nzf",
+    "kode": "MTEI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Implementation Training Center: Tractive Vehicle Engineering"
+  },
+  {
+    "id": "cl1uzwby701oa3b65q4c95iux",
+    "parentId": "cl1uzwby601jg3b651z9u4nzf",
+    "kode": "MTEA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Administration and Facility Training Center: Tractive Vehicle Engineering"
+  },
+  {
+    "id": "cl1uzwby701ob3b65ymggbmu0",
+    "parentId": "cl1uzwby601jh3b65qcradhc8",
+    "kode": "MTPI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Implementation Training Center: Railway Engineering Training"
+  },
+  {
+    "id": "cl1uzwby701oc3b65fdi8cq00",
+    "parentId": "cl1uzwby601jh3b65qcradhc8",
+    "kode": "MTPA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Administration and Facility Training Center: Railway Engineering Training"
+  },
+  {
+    "id": "cl1uzwby701od3b65alxapar3",
+    "parentId": "cl1uzwby601ji3b65nemss3tf",
+    "kode": "MTOI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Implementation Training Center: Operational and Marketing"
+  },
+  {
+    "id": "cl1uzwby701oe3b65s9ivt17v",
+    "parentId": "cl1uzwby601ji3b65nemss3tf",
+    "kode": "MTOA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Administration and Facility Training Center: Operational and Marketing"
+  },
+  {
+    "id": "cl1uzwby701of3b651kuizjlu",
+    "parentId": "cl1uzwby601jj3b65y83yv506",
+    "kode": "MCAP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Payroll"
+  },
+  {
+    "id": "cl1uzwby701og3b6524dzvpyy",
+    "parentId": "cl1uzwby601jj3b65y83yv506",
+    "kode": "MCAM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Mutation, Retirement and Personnel Database"
+  },
+  {
+    "id": "cl1uzwby701oh3b65tiy2a8ui",
+    "parentId": "cl1uzwby601jj3b65y83yv506",
+    "kode": "MCAR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Recruitment, Placement and on Boarding"
+  },
+  {
+    "id": "cl1uzwby701oi3b65ywte2jd7",
+    "parentId": "cl1uzwby601jk3b65o8ep0g9n",
+    "kode": "MCIC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Compensation and Benefit"
+  },
+  {
+    "id": "cl1uzwby701oj3b65dlcevdld",
+    "parentId": "cl1uzwby601jk3b65o8ep0g9n",
+    "kode": "MCIR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Employee Regulation"
+  },
+  {
+    "id": "cl1uzwby701ok3b659wv63qxj",
+    "parentId": "cl1uzwby601jk3b65o8ep0g9n",
+    "kode": "MCII",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Industrial Relation and Employee Engagement"
+  },
+  {
+    "id": "cl1uzwby701ol3b65dc6h58nn",
+    "parentId": "cl1uzwby601jk3b65o8ep0g9n",
+    "kode": "MCIG",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi General Affairs"
+  },
+  {
+    "id": "cl1uzwby701om3b65k2m3gacj",
+    "parentId": "cl1uzwby601jl3b65eoxzx2fy",
+    "kode": "MCOP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Human Resources Planning"
+  },
+  {
+    "id": "cl1uzwby701on3b65etcgt9tq",
+    "parentId": "cl1uzwby601jl3b65eoxzx2fy",
+    "kode": "MCOB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Business Process"
+  },
+  {
+    "id": "cl1uzwby701oo3b65t8r5llmv",
+    "parentId": "cl1uzwby601jl3b65eoxzx2fy",
+    "kode": "MCOD",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Organization Design"
+  },
+  {
+    "id": "cl1uzwby701op3b65dyj495du",
+    "parentId": "cl1uzwby601jm3b65l3yl3i81",
+    "kode": "MCDC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Competency Development and Evaluation"
+  },
+  {
+    "id": "cl1uzwby701oq3b65bpnfme16",
+    "parentId": "cl1uzwby601jm3b65l3yl3i81",
+    "kode": "MCDA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Assessment"
+  },
+  {
+    "id": "cl1uzwby701or3b65dasdamlf",
+    "parentId": "cl1uzwby601jm3b65l3yl3i81",
+    "kode": "MCDD",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Talent Management"
+  },
+  {
+    "id": "cl1uzwby701os3b659xnycvub",
+    "parentId": "cl1uzwby601jn3b65rfxxrvsm",
+    "kode": "MMHS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Health Service"
+  },
+  {
+    "id": "cl1uzwby701ot3b655l7k908t",
+    "parentId": "cl1uzwby601jn3b65rfxxrvsm",
+    "kode": "MMHC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Health Members and Claim"
+  },
+  {
+    "id": "cl1uzwby701ou3b65bxeqzfge",
+    "parentId": "cl1uzwby601jn3b65rfxxrvsm",
+    "kode": "MMHO",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Health Occupational"
+  },
+  {
+    "id": "cl1uzwby701ov3b65kjqwgfs5",
+    "parentId": "cl1uzwby601jn3b65rfxxrvsm",
+    "kode": "MMHP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Health Public Services"
+  },
+  {
+    "id": "cl1uzwby701ow3b65oriej7k1",
+    "parentId": "cl1uzwby601jo3b655cxstjj8",
+    "kode": "PEPB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Business and Development Planning"
+  },
+  {
+    "id": "cl1uzwby701ox3b655tdpuz2b",
+    "parentId": "cl1uzwby601jo3b655cxstjj8",
+    "kode": "PEPF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Financial Planning"
+  },
+  {
+    "id": "cl1uzwby701oy3b65v3c0m332",
+    "parentId": "cl1uzwby601jp3b65cbg9dhyc",
+    "kode": "PEEP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Project and Certificate Engineering"
+  },
+  {
+    "id": "cl1uzwby701oz3b65y55fg9q6",
+    "parentId": "cl1uzwby601jp3b65cbg9dhyc",
+    "kode": "PEEB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Bridge and Building Engineering"
+  },
+  {
+    "id": "cl1uzwby701p03b65bcidlgkm",
+    "parentId": "cl1uzwby601jp3b65cbg9dhyc",
+    "kode": "PEET",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Track Engineering"
+  },
+  {
+    "id": "cl1uzwby701p13b65xki6wr2f",
+    "parentId": "cl1uzwby601jp3b65cbg9dhyc",
+    "kode": "PEES",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Signalling and Train Control Engineering"
+  },
+  {
+    "id": "cl1uzwby701p23b658g23obg1",
+    "parentId": "cl1uzwby601jp3b65cbg9dhyc",
+    "kode": "PEEM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Telecommunication Engineering"
+  },
+  {
+    "id": "cl1uzwby701p33b65qu5sbhsh",
+    "parentId": "cl1uzwby601jp3b65cbg9dhyc",
+    "kode": "PEEE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Catenary, Substation and Mechanical Electrical Engineering"
+  },
+  {
+    "id": "cl1uzwby701p43b65xm4k4o6m",
+    "parentId": "cl1uzwby601jq3b652w3fvrpf",
+    "kode": "PEIA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Investment Program and Administration of Existing Business"
+  },
+  {
+    "id": "cl1uzwby701p53b65wkrm3a1j",
+    "parentId": "cl1uzwby601jq3b652w3fvrpf",
+    "kode": "PEIM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Investment Monitoring and Control of Existing Business"
+  },
+  {
+    "id": "cl1uzwby701p63b656q7be56b",
+    "parentId": "cl1uzwby601jr3b651cklnoxn",
+    "kode": "PECP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Performance Control of Existing Business"
+  },
+  {
+    "id": "cl1uzwby701p73b650291tqby",
+    "parentId": "cl1uzwby601jr3b651cklnoxn",
+    "kode": "PECE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Evaluation of Existing Business"
+  },
+  {
+    "id": "cl1uzwby701p83b65m5ozl2vi",
+    "parentId": "cl1uzwby501i73b65zod9lq4k",
+    "kode": "PEMA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Administration"
+  },
+  {
+    "id": "cl1uzwby701p93b65co5dmv48",
+    "parentId": "cl1uzwby601js3b659bogarzc",
+    "kode": "PPSP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Planning and Business Analyst"
+  },
+  {
+    "id": "cl1uzwby701pa3b65w7yy9fal",
+    "parentId": "cl1uzwby601js3b659bogarzc",
+    "kode": "PPSE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Evaluation and Monitoring"
+  },
+  {
+    "id": "cl1uzwby701pb3b65i594dgow",
+    "parentId": "cl1uzwby601jt3b65pu3lct0j",
+    "kode": "PPUR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Railway Development"
+  },
+  {
+    "id": "cl1uzwby701pc3b65z9mnfqgt",
+    "parentId": "cl1uzwby601jt3b65pu3lct0j",
+    "kode": "PPUN",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Non Railway Development"
+  },
+  {
+    "id": "cl1uzwby701pd3b65hibdx1sd",
+    "parentId": "cl1uzwby601ju3b65m7dcoq53",
+    "kode": "PPCP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Performance Control of New Business"
+  },
+  {
+    "id": "cl1uzwby701pe3b65stsbd350",
+    "parentId": "cl1uzwby601ju3b65m7dcoq53",
+    "kode": "PPCE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Evaluation of New Business"
+  },
+  {
+    "id": "cl1uzwby701pf3b650cwybgnv",
+    "parentId": "cl1uzwby601jv3b65knq38i4j",
+    "kode": "PSMB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Subsidiary Business"
+  },
+  {
+    "id": "cl1uzwby701pg3b65av81ggb8",
+    "parentId": "cl1uzwby601jv3b65knq38i4j",
+    "kode": "PSMF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Subsidiary Finance"
+  },
+  {
+    "id": "cl1uzwby701ph3b65cms3jp90",
+    "parentId": "cl1uzwby601jv3b65knq38i4j",
+    "kode": "PSML",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Subsidiary Litigation and Compliance"
+  },
+  {
+    "id": "cl1uzwby701pi3b65henms001",
+    "parentId": "cl1uzwby601jw3b65v3qdj9h5",
+    "kode": "PBAS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Architecture of Station and Passenger Facility"
+  },
+  {
+    "id": "cl1uzwby701pj3b65apfxqzj5",
+    "parentId": "cl1uzwby601jw3b65v3qdj9h5",
+    "kode": "PBAN",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Architecture of Non Station and Design Standardization"
+  },
+  {
+    "id": "cl1uzwby701pk3b65o6t1dkk8",
+    "parentId": "cl1uzwby601jw3b65v3qdj9h5",
+    "kode": "PBAP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Preservation and Documentation"
+  },
+  {
+    "id": "cl1uzwby701pl3b65s7nengxs",
+    "parentId": "cl1uzwby601jx3b657hhhgnx1",
+    "kode": "PBBP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Building Planning and Budgeting"
+  },
+  {
+    "id": "cl1uzwby701pm3b65y1q390hw",
+    "parentId": "cl1uzwby601jx3b657hhhgnx1",
+    "kode": "PBBE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Building Monitoring and Evaluation"
+  },
+  {
+    "id": "cl1uzwby701pn3b65ibkatpz6",
+    "parentId": "cl1uzwby601jx3b657hhhgnx1",
+    "kode": "PBBM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Mechanical Electrical Planning and Evaluation"
+  },
+  {
+    "id": "cl1uzwby701po3b65q5jv1p45",
+    "parentId": "cl1uzwby601jy3b65tz1d0bzt",
+    "kode": "PADT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Assets Development Technical Research"
+  },
+  {
+    "id": "cl1uzwby701pp3b65ogrkpixo",
+    "parentId": "cl1uzwby601jy3b65tz1d0bzt",
+    "kode": "PADB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Assets Development Business Research"
+  },
+  {
+    "id": "cl1uzwby701pq3b65hc882jjb",
+    "parentId": "cl1uzwby601jz3b65y1glqa9r",
+    "kode": "PAPS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Strategic Marketing and New Partnership"
+  },
+  {
+    "id": "cl1uzwby701pr3b65uk2u18aj",
+    "parentId": "cl1uzwby601jz3b65y1glqa9r",
+    "kode": "PAPE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Evaluation and Partnership Relation"
+  },
+  {
+    "id": "cl1uzwby701ps3b6564zgnhur",
+    "parentId": "cl1uzwby601k03b65h5fsupzz",
+    "kode": "PPAD",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Portal and Data Handling"
+  },
+  {
+    "id": "cl1uzwby701pt3b65qui8w858",
+    "parentId": "cl1uzwby601k03b65h5fsupzz",
+    "kode": "PPAL",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Legal Contract Review"
+  },
+  {
+    "id": "cl1uzwby701pu3b65yrlr2uoi",
+    "parentId": "cl1uzwby601k13b65h249ba1f",
+    "kode": "KCFC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Corporate Financing"
+  },
+  {
+    "id": "cl1uzwby701pv3b656cw26zwq",
+    "parentId": "cl1uzwby601k13b65h249ba1f",
+    "kode": "KCFP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Financial Planning and Evaluation"
+  },
+  {
+    "id": "cl1uzwby701pw3b65dhqdp6h5",
+    "parentId": "cl1uzwby601k13b65h249ba1f",
+    "kode": "KCFB",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Bond Monitoring and Institutional Relationship"
+  },
+  {
+    "id": "cl1uzwby701px3b65b5mha7kb",
+    "parentId": "cl1uzwby601k23b65oyo71pw0",
+    "kode": "KCAP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Budget Program"
+  },
+  {
+    "id": "cl1uzwby701py3b65xc71w8yz",
+    "parentId": "cl1uzwby601k23b65oyo71pw0",
+    "kode": "KCAA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi HQ Budget Authorization"
+  },
+  {
+    "id": "cl1uzwby701pz3b65httmoohg",
+    "parentId": "cl1uzwby601k23b65oyo71pw0",
+    "kode": "KCAE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Budget Control and Evaluation"
+  },
+  {
+    "id": "cl1uzwby701q03b65kq5yamxw",
+    "parentId": "cl1uzwby601k33b65twblrvdx",
+    "kode": "KCWT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi HQ Treasury"
+  },
+  {
+    "id": "cl1uzwby701q13b651e9omptz",
+    "parentId": "cl1uzwby601k33b65twblrvdx",
+    "kode": "KCWD",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi HQ Disbursement Verification"
+  },
+  {
+    "id": "cl1uzwby701q23b65kk3k5z9o",
+    "parentId": "cl1uzwby601k33b65twblrvdx",
+    "kode": "KCWR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi HQ Reporting"
+  },
+  {
+    "id": "cl1uzwby701q33b65gtbmqfy2",
+    "parentId": "cl1uzwby601k33b65twblrvdx",
+    "kode": "KCWI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Import Administration and Insurance"
+  },
+  {
+    "id": "cl1uzwby701q43b65qnjj04ia",
+    "parentId": "cl1uzwby601k33b65twblrvdx",
+    "kode": "KCWC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Collection"
+  },
+  {
+    "id": "cl1uzwby701q53b65e7cy1ozf",
+    "parentId": "cl1uzwby601k43b65wukpafeu",
+    "kode": "KCCF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Financial Statement"
+  },
+  {
+    "id": "cl1uzwby701q63b658xqeufl4",
+    "parentId": "cl1uzwby601k43b65wukpafeu",
+    "kode": "KCCC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Management Report & Consolidation"
+  },
+  {
+    "id": "cl1uzwby701q73b65vb3rxogr",
+    "parentId": "cl1uzwby601k43b65wukpafeu",
+    "kode": "KCCS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Accounting System"
+  },
+  {
+    "id": "cl1uzwby701q83b6575kmrcn0",
+    "parentId": "cl1uzwby601k53b65s3gulg8g",
+    "kode": "KCTS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Strategic Tax Plan, Efficiency, and Litigation"
+  },
+  {
+    "id": "cl1uzwby701q93b65osnj5j1r",
+    "parentId": "cl1uzwby601k53b65s3gulg8g",
+    "kode": "KCTA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Tax Accounting & Compliance"
+  },
+  {
+    "id": "cl1uzwby701qa3b6534dfh6gv",
+    "parentId": "cl1uzwby601k63b65pvcspsdy",
+    "kode": "KRPP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Public Service Obligation"
+  },
+  {
+    "id": "cl1uzwby701qb3b657bm13vyk",
+    "parentId": "cl1uzwby601k63b65pvcspsdy",
+    "kode": "KRPT",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Track Access Charge dan Pioneering Train"
+  },
+  {
+    "id": "cl1uzwby701qc3b652lluxlm8",
+    "parentId": "cl1uzwby601k63b65pvcspsdy",
+    "kode": "KRPM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Infrastructure Maintenance Operation"
+  },
+  {
+    "id": "cl1uzwby701qd3b65h8r5bvvn",
+    "parentId": "cl1uzwby601k73b65mtlkhl4g",
+    "kode": "KRBP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Passenger Cost Accounting"
+  },
+  {
+    "id": "cl1uzwby701qe3b65tolyqnh6",
+    "parentId": "cl1uzwby601k73b65mtlkhl4g",
+    "kode": "KRBF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Freight Cost Accounting"
+  },
+  {
+    "id": "cl1uzwby701qf3b658h4brf96",
+    "parentId": "cl1uzwby601k73b65mtlkhl4g",
+    "kode": "KRBI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi IMO, TAC and Operating Cost Accounting"
+  },
+  {
+    "id": "cl1uzwby701qg3b65bls3n8rt",
+    "parentId": "cl1uzwby601k83b65l3vtlse9",
+    "kode": "KRRW",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Revenue and Cost Comptroller West Java Area"
+  },
+  {
+    "id": "cl1uzwby701qh3b65nbwjnnn7",
+    "parentId": "cl1uzwby601k83b65l3vtlse9",
+    "kode": "KRRC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Revenue and Cost Comptroller Central Java Area"
+  },
+  {
+    "id": "cl1uzwby701qi3b65m0wk0op2",
+    "parentId": "cl1uzwby601k83b65l3vtlse9",
+    "kode": "KRRE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Revenue and Cost Comptroller East Java Area"
+  },
+  {
+    "id": "cl1uzwby701qj3b65424m7nbb",
+    "parentId": "cl1uzwby601k83b65l3vtlse9",
+    "kode": "KRRS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Revenue and Cost Comptroller Sumatera Area"
+  },
+  {
+    "id": "cl1uzwby701qk3b65p4ck7ebe",
+    "parentId": "cl1uzwby601k93b657jkr8gxd",
+    "kode": "KIPP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi IT Planning and Architecture"
+  },
+  {
+    "id": "cl1uzwby701ql3b65zigesdsa",
+    "parentId": "cl1uzwby601k93b657jkr8gxd",
+    "kode": "KIPO",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi IT PMO and Budget Control"
+  },
+  {
+    "id": "cl1uzwby701qm3b654zxob80m",
+    "parentId": "cl1uzwby601k93b657jkr8gxd",
+    "kode": "KIPC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi IT Policy and Compliance"
+  },
+  {
+    "id": "cl1uzwby701qn3b65imh6qtob",
+    "parentId": "cl1uzwby601ka3b65cs4xb6ii",
+    "kode": "KIDA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Analysis and Design"
+  },
+  {
+    "id": "cl1uzwby701qo3b65rwavjady",
+    "parentId": "cl1uzwby601ka3b65cs4xb6ii",
+    "kode": "KIDD",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Development"
+  },
+  {
+    "id": "cl1uzwby701qp3b6500dnw5n8",
+    "parentId": "cl1uzwby601ka3b65cs4xb6ii",
+    "kode": "KIDC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Quality Control and Implementation"
+  },
+  {
+    "id": "cl1uzwby701qq3b65ma3jishw",
+    "parentId": "cl1uzwby601kb3b6551vit09t",
+    "kode": "KION",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Network and Security Operation"
+  },
+  {
+    "id": "cl1uzwby701qr3b65dunoc0o6",
+    "parentId": "cl1uzwby601kb3b6551vit09t",
+    "kode": "KIOA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi IT Application and Data Center"
+  },
+  {
+    "id": "cl1uzwby701qs3b65v0ubof5j",
+    "parentId": "cl1uzwby601kb3b6551vit09t",
+    "kode": "KIOS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Service Desk, End User Support, and Performance Reporting"
+  },
+  {
+    "id": "cl1uzwby701qt3b65kxc29d5s",
+    "parentId": "cl1uzwby601kc3b65o1pm7rbg",
+    "kode": "KIRF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi ERP Finance"
+  },
+  {
+    "id": "cl1uzwby701qu3b65i1fqnuw6",
+    "parentId": "cl1uzwby601kc3b65o1pm7rbg",
+    "kode": "KIRL",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi ERP Logistic"
+  },
+  {
+    "id": "cl1uzwby701qv3b653dkp5xym",
+    "parentId": "cl1uzwby601kc3b65o1pm7rbg",
+    "kode": "KIRH",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi ERP Human Resource"
+  },
+  {
+    "id": "cl1uzwby701qw3b65vwc30vww",
+    "parentId": "cl1uzwby601kc3b65o1pm7rbg",
+    "kode": "KIRS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi ERP Support and Operation"
+  },
+  {
+    "id": "cl1uzwby701qx3b653rt0njtb",
+    "parentId": "cl1uzwby601kd3b650jvygyk2",
+    "kode": "KGRP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Rollingstock Procurement Plan"
+  },
+  {
+    "id": "cl1uzwby701qy3b654s5v52ko",
+    "parentId": "cl1uzwby601kd3b650jvygyk2",
+    "kode": "KGRS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Rollingstock Procurement Process"
+  },
+  {
+    "id": "cl1uzwby801qz3b65jittlh89",
+    "parentId": "cl1uzwby601kd3b650jvygyk2",
+    "kode": "KGRE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Rollingstock Procurement Evaluation"
+  },
+  {
+    "id": "cl1uzwby801r03b65dh3sykyf",
+    "parentId": "cl1uzwby601ke3b65pvykkugz",
+    "kode": "KGIP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Procurement Planning Of Goods and Consulting Services"
+  },
+  {
+    "id": "cl1uzwby801r13b65sas3so8q",
+    "parentId": "cl1uzwby601ke3b65pvykkugz",
+    "kode": "KGIS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Procurement Processing Of Goods and Consulting Services"
+  },
+  {
+    "id": "cl1uzwby801r23b65ftup6q07",
+    "parentId": "cl1uzwby601ke3b65pvykkugz",
+    "kode": "KGIE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Procurement Evaluation Of Goods and Consulting Services"
+  },
+  {
+    "id": "cl1uzwby801r33b65r98squb4",
+    "parentId": "cl1uzwby601kf3b65hs6ozvn8",
+    "kode": "KGSW",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Warehousing"
+  },
+  {
+    "id": "cl1uzwby801r43b659dgm7d7t",
+    "parentId": "cl1uzwby601kf3b65hs6ozvn8",
+    "kode": "KGSS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Stock Information System"
+  },
+  {
+    "id": "cl1uzwby801r53b6546baillb",
+    "parentId": "cl1uzwby601kf3b65hs6ozvn8",
+    "kode": "KGSL",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Logistic Regulation"
+  },
+  {
+    "id": "cl1uzwby801r63b65tvt01iry",
+    "parentId": "cl1uzwby601kg3b65bbx3ruq1",
+    "kode": "KGUK",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Kesekretariatan Pengadaan Barang dan Jasa / Procurement Administration"
+  },
+  {
+    "id": "cl1uzwby801r73b655402i5k8",
+    "parentId": "cl1uzwby601kg3b65bbx3ruq1",
+    "kode": "KGUS",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Pengadaan Barang dan Jasa Bidang Sarana / Rollingstock Procurement"
+  },
+  {
+    "id": "cl1uzwby801r83b65e5gugfkk",
+    "parentId": "cl1uzwby601kg3b65bbx3ruq1",
+    "kode": "KGUP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Pengadaan Barang dan Jasa Bidang Prasarana dan Umum / Infrastructure and General Procurement"
+  },
+  {
+    "id": "cl1uzwby801r93b65sk2pfy1d",
+    "parentId": "cl1uzwby601kk3b65anthsb7i",
+    "kode": "UIAE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Evaluation, Monitoring External and Special Audit"
+  },
+  {
+    "id": "cl1uzwby801ra3b652b43kbi5",
+    "parentId": "cl1uzwby601kk3b65anthsb7i",
+    "kode": "UIAO",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Evaluation, Monitoring Operational Audit"
+  },
+  {
+    "id": "cl1uzwby801rb3b65rdacvdnj",
+    "parentId": "cl1uzwby601kk3b65anthsb7i",
+    "kode": "UIAA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Program and Administration Internal Audit"
+  },
+  {
+    "id": "cl1uzwby801rc3b652uyvchnq",
+    "parentId": "cl1uzwby601ko3b655ylv3qmb",
+    "kode": "URDF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Risk Management Framework Design and Implementation"
+  },
+  {
+    "id": "cl1uzwby801rd3b65jdbc710e",
+    "parentId": "cl1uzwby601ko3b655ylv3qmb",
+    "kode": "URDP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Risk Management Process Implementation"
+  },
+  {
+    "id": "cl1uzwby801re3b65vb0r4p2w",
+    "parentId": "cl1uzwby601kp3b65wjqfxmqh",
+    "kode": "URCF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Risk Management Framework Monitoring, Review and Improvement"
+  },
+  {
+    "id": "cl1uzwby801rf3b657m1fpky8",
+    "parentId": "cl1uzwby601kp3b65wjqfxmqh",
+    "kode": "URCP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Risk Management Process Monitoring, Review and Improvement"
+  },
+  {
+    "id": "cl1uzwby801rg3b6516a2p99f",
+    "parentId": "cl1uzwby601kp3b65wjqfxmqh",
+    "kode": "URCA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Administration"
+  },
+  {
+    "id": "cl1uzwby801rh3b65djjmadmo",
+    "parentId": "cl1uzwby601kq3b659ig6gapm",
+    "kode": "ULBC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Legal Corporate Commercial and Banking"
+  },
+  {
+    "id": "cl1uzwby801ri3b65svm6oydb",
+    "parentId": "cl1uzwby601kq3b659ig6gapm",
+    "kode": "ULBP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Legal Procurement"
+  },
+  {
+    "id": "cl1uzwby801rj3b657jr4g96h",
+    "parentId": "cl1uzwby601kq3b659ig6gapm",
+    "kode": "ULBI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Legal Investment and Project Financing"
+  },
+  {
+    "id": "cl1uzwby801rk3b653uibc7et",
+    "parentId": "cl1uzwby601kr3b65j47f72pt",
+    "kode": "ULPI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Institutions Relation"
+  },
+  {
+    "id": "cl1uzwby801rl3b65mxp8d9bk",
+    "parentId": "cl1uzwby601kr3b65j47f72pt",
+    "kode": "ULPP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Policy"
+  },
+  {
+    "id": "cl1uzwby801rm3b65dhyhnhb7",
+    "parentId": "cl1uzwby601kr3b65j47f72pt",
+    "kode": "ULPR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Regulations Analysis"
+  },
+  {
+    "id": "cl1uzwby801rn3b65n3c83er0",
+    "parentId": "cl1uzwby601ks3b65fb55adhp",
+    "kode": "ULLP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Public Law Litigation"
+  },
+  {
+    "id": "cl1uzwby801ro3b65ies7v01v",
+    "parentId": "cl1uzwby601ks3b65fb55adhp",
+    "kode": "ULLV",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Private Law Litigation"
+  },
+  {
+    "id": "cl1uzwby801rp3b65hicafnd0",
+    "parentId": "cl1uzwby601ku3b65qecj8622",
+    "kode": "USDG",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi General Document and Files"
+  },
+  {
+    "id": "cl1uzwby801rq3b65kbcdpq71",
+    "parentId": "cl1uzwby601ku3b65qecj8622",
+    "kode": "USDA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Asset Ownership Documents and Files"
+  },
+  {
+    "id": "cl1uzwby801rr3b65my7pvnq3",
+    "parentId": "cl1uzwby601ku3b65qecj8622",
+    "kode": "USDL",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Legal Documents & Files"
+  },
+  {
+    "id": "cl1uzwby801rs3b65l5xlihi0",
+    "parentId": "cl1uzwby601kv3b655wul7sb4",
+    "kode": "USPI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Internal Relations"
+  },
+  {
+    "id": "cl1uzwby801rt3b65y4j879ju",
+    "parentId": "cl1uzwby601kv3b655wul7sb4",
+    "kode": "USPE",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi External Relations"
+  },
+  {
+    "id": "cl1uzwby801ru3b65d0zcugqv",
+    "parentId": "cl1uzwby601kv3b655wul7sb4",
+    "kode": "USPC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Corporate Image Care"
+  },
+  {
+    "id": "cl1uzwby801rv3b65py7qcb3d",
+    "parentId": "cl1uzwby601kv3b655wul7sb4",
+    "kode": "USPP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Public Information Care"
+  },
+  {
+    "id": "cl1uzwby801rw3b65knnvwdpp",
+    "parentId": "cl1uzwby601kv3b655wul7sb4",
+    "kode": "USPM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Multimedia"
+  },
+  {
+    "id": "cl1uzwby801rx3b65m0q9yxac",
+    "parentId": "cl1uzwby601kw3b65knjre6yl",
+    "kode": "USQA",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Quality Assurance"
+  },
+  {
+    "id": "cl1uzwby801ry3b65lvldtcyk",
+    "parentId": "cl1uzwby601kw3b65knjre6yl",
+    "kode": "USQR",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Quality Assurance"
+  },
+  {
+    "id": "cl1uzwby801rz3b65pajlp5im",
+    "parentId": "cl1uzwby601kw3b65knjre6yl",
+    "kode": "USQP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Quality Planning"
+  },
+  {
+    "id": "cl1uzwby801s03b65yufal32o",
+    "parentId": "cl1uzwby601kw3b65knjre6yl",
+    "kode": "USQM",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Quality Management"
+  },
+  {
+    "id": "cl1uzwby801s13b65ih2xmkvy",
+    "parentId": "cl1uzwby601kw3b65knjre6yl",
+    "kode": "USQI",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Quality Improvement"
+  },
+  {
+    "id": "cl1uzwby801s23b65lh0lhxs3",
+    "parentId": "cl1uzwby601kw3b65knjre6yl",
+    "kode": "USQG",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Good Corporate Governance and Whistleblowing System"
+  },
+  {
+    "id": "cl1uzwby801s33b65or54helx",
+    "parentId": "cl1uzwby601kx3b65pxaawupp",
+    "kode": "USCC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Corporate Culture"
+  },
+  {
+    "id": "cl1uzwby801s43b65xs3pz6ni",
+    "parentId": "cl1uzwby601kx3b65pxaawupp",
+    "kode": "USCF",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi General Facilities of Head Office"
+  },
+  {
+    "id": "cl1uzwby801s53b65ck43mvac",
+    "parentId": "cl1uzwby601kx3b65pxaawupp",
+    "kode": "USCP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Protocol and Secretary of Head Office"
+  },
+  {
+    "id": "cl1uzwby801s63b65tp2xyoba",
+    "parentId": "cl1uzwby601ky3b657a854y5w",
+    "kode": "USSP",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Partnership and Participations"
+  },
+  {
+    "id": "cl1uzwby801s73b65g81ixzzj",
+    "parentId": "cl1uzwby601ky3b657a854y5w",
+    "kode": "USSC",
+    "level": 4,
+    "tipe": "Seksi",
+    "nama": "Seksi Community Relations"
+  }
+]
