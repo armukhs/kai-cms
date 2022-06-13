@@ -184,7 +184,7 @@ export default function FormInvitation({
         />
 
         <Text size="sm" mb={4} weight={500}>
-          Pilih Jabatan: ({form.values['jabatanId']}) EMPTY: {hasEmpty() ? 'YES' : 'NO'}
+          Pilih Jabatan:
         </Text>
 
         <Paper withBorder sx={{ borderColor: '#d4d4d4' }}>

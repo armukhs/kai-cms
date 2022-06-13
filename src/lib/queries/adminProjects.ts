@@ -23,7 +23,10 @@ export default async function adminProjects(req: NextApiRequest, res: NextApiRes
 
       // Mentors only
       prisma.user.findMany({
-        where: { unitId: { not: null } },
+        // where: { unitId: { not: null } },
+        where: {
+          roles: { contains: 'mentor' },
+        },
       }),
     ]);
 

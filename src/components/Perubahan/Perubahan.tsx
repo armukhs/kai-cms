@@ -113,7 +113,7 @@ export default function Perubahan({
             units={organization?.units}
             mutate={mutate}
             index={index}
-            canEdit={canEdit}
+            canEdit={canEdit && allowEdit}
             pic={getJabatan}
             onClick={() => {
               window.scrollTo(0, 0);

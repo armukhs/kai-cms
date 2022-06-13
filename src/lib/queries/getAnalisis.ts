@@ -118,7 +118,7 @@ export default async function getAnalisis(req: NextApiRequest, res: NextApiRespo
     // Check if project exists
     const project = await prisma.project.findFirst({
       where: { id: id },
-      select: { id: true, managerId: true, staffId: true, mentorId: true },
+      select: { id: true, managerId: true, staffId: true, mentorId: true, tglKonfirmasi: true },
     });
 
     if (!project) return res.status(404).json({ message: 'Not found' });
@@ -203,6 +203,7 @@ export default async function getAnalisis(req: NextApiRequest, res: NextApiRespo
       managerId: project.managerId,
       staffId: project.staffId,
       mentorId: project.mentorId,
+      tglKonfirmasi: project.tglKonfirmasi,
       topLevel,
       topLevelCount,
       topProsesLevel,

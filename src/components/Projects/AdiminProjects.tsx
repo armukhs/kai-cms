@@ -11,11 +11,15 @@ export default function AdminProjects() {
 
   if (!data) return <></>;
 
+  const newProjects = data.projects.filter((p: any) => p.Mentor == null);
+
   return (
     <>
       <Title order={4} mb={20}>
         New Projects
       </Title>
+      {newProjects.length == 0 && <Text mt={-5}>- Tidak ada</Text>}
+
       {data.projects
         .filter((d: any) => d.Mentor == null)
         .map((project: any) => (
@@ -26,27 +30,31 @@ export default function AdminProjects() {
         All Projects
       </Title>
 
-      <Table>
-        <tbody>
-          <tr style={{ fontWeight: 500 }}>
-            <td width={30}>#</td>
-            <td>Project</td>
-          </tr>
-          {data.projects.map((project: any, index: number) => (
-            <tr key={project.id}>
-              <td>{index + 1}</td>
-              <td>
-                <Link href={`/projects/${project.id}`}>
-                  <a style={{ color: 'blue' }}>{project.judul}</a>
-                </Link>
-                <Text size="sm" color="#789">
-                  {project.Unit.nama}
-                </Text>
-              </td>
+      {data.projects.length == 0 && <Text>- Tidak ada</Text>}
+
+      {data.projects.length > 0 && (
+        <Table>
+          <tbody>
+            <tr style={{ fontWeight: 500 }}>
+              <td width={30}>#</td>
+              <td>Project</td>
             </tr>
-          ))}
-        </tbody>
-      </Table>
+            {data.projects.map((project: any, index: number) => (
+              <tr key={project.id}>
+                <td>{index + 1}</td>
+                <td>
+                  <Link href={`/projects/${project.id}`}>
+                    <a style={{ color: 'blue' }}>{project.judul}</a>
+                  </Link>
+                  <Text size="sm" color="#789">
+                    {project.Unit.nama}
+                  </Text>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
+      )}
     </>
   );
 }

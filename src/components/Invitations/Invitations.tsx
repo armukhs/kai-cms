@@ -44,6 +44,8 @@ export default function Invitations({ user }: { user: SessionUser }) {
                   <td>{item.created.substring(0, 10)}</td>
                   <td>
                     <span style={{ fontWeight: 600 }}>{item.nama}</span>
+                    {` `}
+                    <span style={{ color: 'gray' }}>({item.email})</span>
                     <br />
                     {item.jabatan}
                   </td>

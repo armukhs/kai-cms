@@ -16,6 +16,7 @@ export default function Analisis({ user }: { user: SessionUser }) {
   if (!data) return <></>;
 
   const showAnalisis = user?.id == data?.mentorId || user?.roles.includes('admin');
+  const isMentor = data.mentorId == user?.id;
 
   return (
     <Layout title={title} navbar={<NavbarProject id={id} />}>
@@ -119,7 +120,14 @@ export default function Analisis({ user }: { user: SessionUser }) {
         </Table>
       </Paper>
 
-      {showAnalisis && <FormAnalisis data={data.kesiapan} canEdit={user?.id == data.mentorId} />}
+      {showAnalisis && (
+        <FormAnalisis
+          // tglKonfirmasi={data.tglKonfirmasi}
+          data={data}
+          canEdit={user?.id == data.mentorId}
+          mutate={mutate}
+        />
+      )}
     </Layout>
   );
 }
