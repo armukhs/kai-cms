@@ -39,7 +39,7 @@ export default function Invitations({ user }: { user: SessionUser }) {
               data.map((item: any) => (
                 <tr
                   key={item.id}
-                  style={{ backgroundColor: item.token.length < 5 ? '#fafafa' : '' }}
+                  style={{ backgroundColor: item.token.length < 5 ? '#f4f4fc' : '' }}
                 >
                   <td>{item.created.substring(0, 10)}</td>
                   <td>

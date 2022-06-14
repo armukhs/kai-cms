@@ -20,36 +20,41 @@ export default function UserProjects({ user }: { user: SessionUser }) {
     return data.filter((p: any) => p.mentorId == user?.id);
   }
 
+  const isProjectUser = user?.roles.includes('project');
+  const isMentorUser = user?.roles.includes('mentor');
+
   return (
     <>
       <Show when={showForm}>
         <FormProject user={user} onCancel={() => setShowForm(false)} />
       </Show>
 
-      <Show when={!showForm}>
-        <Title order={4} mb={20}>
-          My Projects
-        </Title>
-        <Box>
-          {myProjects().map((project: any) => (
-            <div style={{ marginBottom: 10, fontSize: 14 }}>
-              <Link href={`/projects/${project.id}`}>
-                <a style={{ color: 'blue' }}>{project.judul}</a>
-              </Link>
-            </div>
-          ))}
-          {myProjects().length == 0 && <div>Anda belum memiliki project</div>}
-        </Box>
+      <Show when={!showForm && isProjectUser == true}>
+        <Box mb={40}>
+          <Title order={4} mb={20}>
+            My Projects
+          </Title>
+          <Box>
+            {myProjects().map((project: any) => (
+              <div style={{ marginBottom: 10, fontSize: 14 }}>
+                <Link href={`/projects/${project.id}`}>
+                  <a style={{ color: 'blue' }}>{project.judul}</a>
+                </Link>
+              </div>
+            ))}
+            {myProjects().length == 0 && <div>Anda belum memiliki project</div>}
+          </Box>
 
-        <Show when={user?.roles.includes('project') || false}>
-          <Button mt={20} onClick={() => setShowForm(true)}>
-            New Project
-          </Button>
-        </Show>
+          <Show when={user?.roles.includes('project') || false}>
+            <Button mt={20} onClick={() => setShowForm(true)}>
+              New Project
+            </Button>
+          </Show>
+        </Box>
       </Show>
 
       <Show when={(!showForm && user?.roles.includes('mentor')) || false}>
-        <Title order={4} mt={30} mb={20}>
+        <Title order={4} mb={20}>
           My Assignments
         </Title>
         <div>

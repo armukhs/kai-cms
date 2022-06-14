@@ -1,6 +1,7 @@
 import { Button, Checkbox, NativeSelect, Paper, Table, Text, Title } from '@mantine/core';
 import { useForm } from '@mantine/form';
 import { Kesiapan } from '@prisma/client';
+import FormKomentar from 'components/FormKomentar/FormKomentar';
 import Pojo from 'components/Pojo/Pojo';
 import fetchJson from 'lib/fetchJson';
 import { createPostData } from 'lib/utils';
@@ -65,6 +66,10 @@ export default function FormAnalisis({
     }
   }, [data]);
 
+  useEffect(() => {
+    if (!hasAllValues()) setFinal(false);
+  }, [form.values]);
+
   function postValues() {
     const original = {};
     Object.keys(form.values).forEach((key: string) => {
@@ -78,6 +83,19 @@ export default function FormAnalisis({
       data: original,
       isFinal: final,
     };
+  }
+
+  function hasAllValues() {
+    let rs = true;
+    Object.keys(form.values).forEach((k) => {
+      // @ts-ignore
+      const val = form.values[k];
+      if (val == 0 || val == '0') {
+        rs = false;
+        // setFinal(false);
+      }
+    });
+    return rs;
   }
 
   const [submitting, setSubmitting] = useState(false);
@@ -96,9 +114,9 @@ export default function FormAnalisis({
 
   return (
     <div>
-      <Title order={4} mt={30} mb={10} sx={{ fontWeight: 500 }}>
-        Analisis Kesiapan
-      </Title>
+      <Text size="sm" mb={15} color="gray">
+        Berdasar hasil analisis 16 aspek.
+      </Text>
 
       <Paper withBorder sx={{ borderColor: '#ddd' }}>
         <Table fontSize={13.5}>
@@ -244,14 +262,16 @@ export default function FormAnalisis({
       </Paper>
 
       <p style={{ fontSize: 13 }}>
-        Tgl Konfirmasi: {data.tglKonfirmasi ? data.tglKonfirmasi : '[Draft]'}
+        Tgl Konfirmasi:{' '}
+        {data.tglKonfirmasi ? data.tglKonfirmasi.substring(0, 10) : 'Belum ditetapkan'}
       </p>
 
       {canEdit && (
         <>
           <Checkbox
-            mt={10}
+            mt={15}
             label="Simpan sebagai analisis final"
+            disabled={!hasAllValues()}
             checked={final}
             onChange={(event) => setFinal(event.currentTarget.checked)}
           />
@@ -261,7 +281,7 @@ export default function FormAnalisis({
         </>
       )}
 
-      {/* <Pojo obj={intValues()} /> */}
+      {/* <Pojo obj={form.values['ekspektasi_realistis']} /> */}
     </div>
   );
 }
