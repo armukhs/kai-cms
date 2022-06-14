@@ -92,19 +92,19 @@ export default function Rencana({
         </Title>
         <Paper px={16} py={50} mb={28} withBorder sx={{ borderColor: '#ddd', textAlign: 'center' }}>
           <Text size="sm">Tidak ada data {title.toLowerCase()} dalam proyek ini.</Text>
-          {canCreate && (
-            <Button
-              mt={20}
-              style={{ fontWeight: 500 }}
-              onClick={() => {
-                setRencana(newRencana());
-                setShowForm('create');
-                window.scrollTo(0, 0);
-              }}
-            >
-              Create Rencana
-            </Button>
-          )}
+          {/* {canCreate && ( */}
+          <Button
+            mt={20}
+            style={{ fontWeight: 500 }}
+            onClick={() => {
+              setRencana(newRencana());
+              setShowForm('create');
+              window.scrollTo(0, 0);
+            }}
+          >
+            Create Rencana
+          </Button>
+          {/* )} */}
         </Paper>
       </Show>
 
@@ -133,25 +133,24 @@ export default function Rencana({
           />
         ))}
 
-        {canCreate && (
-          <Button
-            mt={0}
-            style={{ fontWeight: 500 }}
-            onClick={() => {
-              setRencana(newRencana());
-              setShowForm('create');
-              window.scrollTo(0, 0);
-            }}
-          >
-            Add Rencana
-          </Button>
-        )}
+        <Button
+          mt={0}
+          style={{ fontWeight: 500 }}
+          onClick={() => {
+            setRencana(newRencana());
+            setShowForm('create');
+            window.scrollTo(0, 0);
+          }}
+        >
+          Add Rencana
+        </Button>
         {/* </Show> */}
       </div>
 
       <Show when={!showForm}>
         <Komentar projectId={id} type={type} />
-        {allowEdit && <FormKomentar type={type} userId={sessionUser.id} projectId={id} />}
+        {/* {allowEdit && <FormKomentar type={type} userId={sessionUser.id} projectId={id} />} */}
+        <FormKomentar type={type} userId={sessionUser.id} projectId={id} />
       </Show>
       {/* <Pojo obj={rencana} /> */}
     </Layout>
