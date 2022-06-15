@@ -30,7 +30,13 @@ export default async function getKomunikasi(req: NextApiRequest, res: NextApiRes
           projectId: projectId,
           type: TYPE,
         },
-        include: { PIC: true, UnitRencana: true },
+        include: {
+          PIC: true,
+          UnitRencana: true,
+          _count: {
+            select: { Progress: true },
+          },
+        },
         orderBy: { created: 'asc' },
       }),
     ]);

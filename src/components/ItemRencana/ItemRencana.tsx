@@ -1,6 +1,8 @@
 import { Box, Button, Checkbox, LoadingOverlay, Paper, Table, Text } from '@mantine/core';
+import Pojo from 'components/Pojo/Pojo';
 import fetchJson from 'lib/fetchJson';
 import { createPostData } from 'lib/utils';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 export default function ItemRencana({
@@ -65,14 +67,23 @@ export default function ItemRencana({
         <Box color="white">asas</Box>
       </Overlay> */}
       <LoadingOverlay visible={submitting} />
+      {/* <Pojo obj={data} /> */}
       <Paper withBorder sx={{ borderColor: '#ddd' }}>
         <Table fontSize={13.5}>
           <tbody style={{ verticalAlign: 'top' }}>
             <tr>
               <td colSpan={2} style={{ paddingLeft: 14, paddingRight: 14 }}>
-                <Box my={5}>
-                  <strong>Rencana {index + 1}</strong>
-                </Box>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <Box my={5} style={{ flexGrow: 1 }}>
+                    <strong>Rencana {index + 1}</strong>
+                  </Box>
+                  <div>
+                    <Link href={`/progress/${data.id}`}>
+                      <a style={{ color: 'blue' }}>Progress</a>
+                    </Link>{' '}
+                    ({data._count.Progress})
+                  </div>
+                </div>
               </td>
             </tr>
             <tr>

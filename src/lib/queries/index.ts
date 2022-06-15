@@ -23,6 +23,7 @@ import getAnalisis from './getAnalisis';
 import getUsers from './getUsers';
 import getInvitations from './getInvitations';
 import adminProjects from './adminProjects';
+import getProgress from './getProgress';
 
 export const QUERIES = {
   'top-units': getTopUnits,
@@ -52,5 +53,6 @@ export const AUTH_QUERIES = {
   'rencana-komunikasi': getKomunikasi,
   'rencana-sponsorship': getSponsorship,
   'rencana-development': getDevelopment,
+  'get-progress': getProgress,
   'admin-projects': adminProjects,
 };

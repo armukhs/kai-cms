@@ -186,6 +186,7 @@ model Rencana {
   Project     Project       @relation(fields: [projectId], references: [id])
   PIC         Jabatan?      @relation(fields: [picId], references: [id])
   UnitRencana UnitRencana[]
+  Progress    Progress[]
 }
 
 model UnitRencana {
@@ -223,5 +224,12 @@ model Kesiapan {
   @@unique([projectId])
 }
 
-// Aktivitas
 // Progress
+model Progress {
+  id        String  @id
+  rencanaId String
+  type      String
+  progress  String
+  //
+  Rencana   Rencana @relation(fields: [rencanaId], references: [id])
+}
