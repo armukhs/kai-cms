@@ -149,10 +149,9 @@ export default function Rencana({
 
       <Show when={!showForm}>
         <Komentar projectId={id} type={type} />
-        {/* {allowEdit && <FormKomentar type={type} userId={sessionUser.id} projectId={id} />} */}
         <FormKomentar type={type} userId={sessionUser.id} projectId={id} />
       </Show>
-      {/* <Pojo obj={rencana} /> */}
+      {/* <Pojo obj={data} /> */}
     </Layout>
   );
 }

@@ -1,9 +1,9 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import prisma from 'lib/db';
 
-const TYPE = 'sponsorship';
+const TYPE = 'development';
 
-export default async function getSponsorship(req: NextApiRequest, res: NextApiResponse) {
+export default async function getDevelopment(req: NextApiRequest, res: NextApiResponse) {
   const opt = req.query.opt;
   if (opt === undefined || opt == '') {
     return res.status(400).json({ message: 'ID not defined' });
@@ -30,7 +30,13 @@ export default async function getSponsorship(req: NextApiRequest, res: NextApiRe
           projectId: projectId,
           type: TYPE,
         },
-        include: { PIC: true, UnitRencana: true },
+        include: {
+          PIC: true,
+          UnitRencana: true,
+          _count: {
+            select: { Progress: true },
+          },
+        },
         orderBy: { created: 'asc' },
       }),
     ]);

@@ -46,24 +46,25 @@ model Jabatan {
 
 // - roles: "admin cmadmin project manager staff superguest"
 model User {
-  id        String     @id @default(cuid())
-  deleted   DateTime?
-  unitId    String?
-  jabatanId String?    @unique // optional for superadmin
-  nipp      String     @unique
-  email     String     @unique
-  nama      String
-  roles     String?
-  created   DateTime?  @default(now())
-  updated   DateTime?  @updatedAt
+  id               String             @id @default(cuid())
+  deleted          DateTime?
+  unitId           String?
+  jabatanId        String?            @unique // optional for superadmin
+  nipp             String             @unique
+  email            String             @unique
+  nama             String
+  roles            String?
+  created          DateTime?          @default(now())
+  updated          DateTime?          @updatedAt
   // Relations
-  Unit      Unit?      @relation(fields: [unitId], references: [id])
-  Jabatan   Jabatan?   @relation(fields: [jabatanId], references: [id])
-  Hash      Hash?
-  AsManager Project[]  @relation("Manager")
-  AsMentor  Project[]  @relation("Mentor")
-  AsStaff   Project[]  @relation("Staff")
-  Komentar  Komentar[]
+  Unit             Unit?              @relation(fields: [unitId], references: [id])
+  Jabatan          Jabatan?           @relation(fields: [jabatanId], references: [id])
+  Hash             Hash?
+  AsManager        Project[]          @relation("Manager")
+  AsMentor         Project[]          @relation("Mentor")
+  AsStaff          Project[]          @relation("Staff")
+  Komentar         Komentar[]
+  KomentarProgress KomentarProgress[]
 }
 
 model Hash {
@@ -170,23 +171,24 @@ model Invitation {
 }
 
 model Rencana {
-  id          String        @id
-  projectId   String
-  picId       String?
-  type        String
-  rencana     String?
-  audien      String
-  waktu       String
-  tempat      String
-  tolokUkur   String
-  monitoring  String
-  created     DateTime?     @default(now())
-  updated     DateTime?     @updatedAt
+  id               String             @id
+  projectId        String
+  picId            String?
+  type             String
+  rencana          String?
+  audien           String
+  waktu            String
+  tempat           String
+  tolokUkur        String
+  monitoring       String
+  created          DateTime?          @default(now())
+  updated          DateTime?          @updatedAt
   //
-  Project     Project       @relation(fields: [projectId], references: [id])
-  PIC         Jabatan?      @relation(fields: [picId], references: [id])
-  UnitRencana UnitRencana[]
-  Progress    Progress[]
+  Project          Project            @relation(fields: [projectId], references: [id])
+  PIC              Jabatan?           @relation(fields: [picId], references: [id])
+  UnitRencana      UnitRencana[]
+  Progress         Progress[]
+  KomentarProgress KomentarProgress[]
 }
 
 model UnitRencana {
@@ -226,10 +228,23 @@ model Kesiapan {
 
 // Progress
 model Progress {
-  id        String  @id
+  id        String    @id
   rencanaId String
   type      String
   progress  String
+  created   DateTime? @default(now())
   //
-  Rencana   Rencana @relation(fields: [rencanaId], references: [id])
+  Rencana   Rencana   @relation(fields: [rencanaId], references: [id])
+}
+
+model KomentarProgress {
+  id        String    @id
+  rencanaId String
+  userId    String
+  type      String
+  value     String
+  created   DateTime? @default(now())
+  // Relations
+  Rencana   Rencana   @relation(fields: [rencanaId], references: [id])
+  User      User      @relation(fields: [userId], references: [id])
 }

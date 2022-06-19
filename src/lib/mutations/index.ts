@@ -6,8 +6,10 @@ import newUser from './newUser';
 import registerProject from './registerProject';
 import saveAnalisis from './saveAnalisis';
 import saveKomentar from './saveKomentar';
+import saveKomentarProgress from './saveKomentarProgress';
 import saveMentor from './saveMentor';
 import savePerubahan from './savePerubahan';
+import saveProgress from './saveProgress';
 import saveProject from './saveProject';
 import saveRencana from './saveRencana';
 import undeleteUser from './undeleteUser';
@@ -33,4 +35,6 @@ export const AUTH_MUTATIONS = {
   'delete-user': deleteUser,
   'undelete-user': undeleteUser,
   'save-mentor': saveMentor,
+  'save-progress': saveProgress,
+  'save-komentar-progress': saveKomentarProgress,
 };

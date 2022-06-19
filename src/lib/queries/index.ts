@@ -1,5 +1,5 @@
-import getDevelopment from 'lib/mutations/getDevelopment';
-import getSponsorship from 'lib/mutations/getSponsorship';
+import getDevelopment from 'lib/queries/getDevelopment';
+import getSponsorship from 'lib/queries/getSponsorship';
 import checkEmail from './checkEmail';
 import checkJabatan from './checkJabatan';
 import checkNipp from './checkNipp';
@@ -24,6 +24,7 @@ import getUsers from './getUsers';
 import getInvitations from './getInvitations';
 import adminProjects from './adminProjects';
 import getProgress from './getProgress';
+import getKomentarProgress from './getKomentarProgress';
 
 export const QUERIES = {
   'top-units': getTopUnits,
@@ -55,4 +56,5 @@ export const AUTH_QUERIES = {
   'rencana-development': getDevelopment,
   'get-progress': getProgress,
   'admin-projects': adminProjects,
+  'get-komentar-progress': getKomentarProgress,
 };

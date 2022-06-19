@@ -15,9 +15,13 @@ export default async function getProgress(req: NextApiRequest, res: NextApiRespo
   try {
     const id = opt as string;
     const [rencana, progress] = await prisma.$transaction([
-      prisma.rencana.findUnique({
-        where: { id: id },
-      }),
+      // prisma.rencana.findUnique({
+      //   where: { id: id },
+      // }),
+      prisma.$queryRaw`SELECT "Rencana".*, "managerId", "staffId", "mentorId"
+      FROM "Rencana" LEFT JOIN "Project" ON "Rencana"."projectId"="Project"."id"
+      WHERE "Rencana"."id"=${id} LIMIT 1;
+      `,
 
       prisma.progress.findMany({
         where: {
@@ -27,8 +31,9 @@ export default async function getProgress(req: NextApiRequest, res: NextApiRespo
     ]);
     console.log('RENCANA', rencana);
 
-    if (!rencana) return res.status(400).json({ message: 'ID not defined' });
-    return res.json({ rencana, progress });
+    if (rencana.length == 0) return res.status(400).json({ message: 'ID not defined' });
+
+    return res.json({ rencana: rencana[0], progress });
   } catch (error) {
     console.log(error);
     res.status(500).json(error);
