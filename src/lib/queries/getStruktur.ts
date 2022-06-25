@@ -22,7 +22,11 @@ export default async function getStruktur(req: NextApiRequest, res: NextApiRespo
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
-          // teknologi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 

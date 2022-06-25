@@ -15,6 +15,7 @@ import FormKomentar from 'components/FormKomentar/FormKomentar';
 import Pojo from 'components/Pojo/Pojo';
 import FormRencana from 'components/FormRencana/FormRencana';
 import ItemRencana from 'components/ItemRencana/ItemRencana';
+import ProjectLabel from 'components/ProjectLabel/ProjectLabel';
 
 export default function Rencana({
   type,
@@ -87,6 +88,8 @@ export default function Rencana({
       </div>
 
       <Show when={showForm == '' && data.rencana.length == 0}>
+        <ProjectLabel judul={data.project.judul} namaUnit={data.project.Unit.nama} />
+
         <Title order={4} mb={20}>
           Daftar {title}
         </Title>
@@ -109,7 +112,8 @@ export default function Rencana({
       </Show>
 
       <div style={{ display: showForm == '' && data.rencana.length > 0 ? 'block' : 'none' }}>
-        {/* <Show when={showForm == '' && data.rencana.length > 0}> */}
+        <ProjectLabel judul={data.project.judul} namaUnit={data.project.Unit.nama} />
+
         <Title order={4} mb={20}>
           Daftar {title}
         </Title>

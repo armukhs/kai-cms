@@ -23,7 +23,11 @@ export default async function getSponsorship(req: NextApiRequest, res: NextApiRe
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
-          // teknologi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 

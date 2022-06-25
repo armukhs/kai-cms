@@ -12,6 +12,8 @@ import OrganizationContext from 'components/OrganizationContext/OrganizationCont
 import SessionContext from 'components/SessionProvider/SessionProvider';
 import Komentar from 'components/Komentar/Komentar';
 import FormKomentar from 'components/FormKomentar/FormKomentar';
+import Pojo from 'components/Pojo/Pojo';
+import ProjectLabel from 'components/ProjectLabel/ProjectLabel';
 
 export default function Perubahan({
   type,
@@ -60,6 +62,8 @@ export default function Perubahan({
 
   return (
     <Layout title={title} navbar={<NavbarProject id={id} />}>
+      <ProjectLabel judul={data.project.judul} namaUnit={data.project.Unit.nama} />
+
       <div style={{ display: showForm == 'edit' || showForm == 'create' ? 'block' : 'none' }}>
         <Title order={4} mb={20}>
           {showForm == 'edit' ? 'Edit' : 'Form'} {title}
@@ -83,6 +87,7 @@ export default function Perubahan({
         <Title order={4} mb={20}>
           Daftar {title}
         </Title>
+
         <Paper px={16} py={50} mb={28} withBorder sx={{ borderColor: '#ddd', textAlign: 'center' }}>
           <Text size="sm">Tidak ada data {title.toLowerCase()} dalam proyek ini.</Text>
           {canCreate && (

@@ -2,6 +2,7 @@ import { Box, Paper, Table, Tabs, Text, Title } from '@mantine/core';
 import FormAnalisis from 'components/FormAnalisis/FormAnalisis';
 import Layout from 'components/Layout/Layout';
 import NavbarProject from 'components/NavbarProject/NavbarProject';
+import ProjectLabel from 'components/ProjectLabel/ProjectLabel';
 import { SessionUser } from 'lib/session';
 import useAuthApi from 'lib/useAuthApi';
 import { useRouter } from 'next/router';
@@ -20,6 +21,8 @@ export default function Analisis({ user }: { user: SessionUser }) {
 
   return (
     <Layout title={title} navbar={<NavbarProject id={id} />}>
+      <ProjectLabel judul={data.judulProyek} namaUnit={data.namaUnit} />
+
       <Title order={4} mb={15}>
         Analisis
       </Title>

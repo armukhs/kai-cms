@@ -22,7 +22,11 @@ export default async function getKompetensi(req: NextApiRequest, res: NextApiRes
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
-          // teknologi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 

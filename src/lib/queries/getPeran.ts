@@ -22,7 +22,11 @@ export default async function getPeran(req: NextApiRequest, res: NextApiResponse
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
-          // teknologi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 

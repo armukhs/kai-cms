@@ -21,6 +21,11 @@ export default async function getProses(req: NextApiRequest, res: NextApiRespons
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 

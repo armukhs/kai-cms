@@ -22,7 +22,11 @@ export default async function getLainnya(req: NextApiRequest, res: NextApiRespon
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
-          // teknologi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 

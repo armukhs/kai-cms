@@ -21,7 +21,11 @@ export default async function getKomunikasi(req: NextApiRequest, res: NextApiRes
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
-          // teknologi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 

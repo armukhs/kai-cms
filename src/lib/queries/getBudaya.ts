@@ -22,7 +22,11 @@ export default async function getBudaya(req: NextApiRequest, res: NextApiRespons
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
-          // teknologi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 

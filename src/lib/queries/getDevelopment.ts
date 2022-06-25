@@ -21,7 +21,11 @@ export default async function getDevelopment(req: NextApiRequest, res: NextApiRe
           staffId: true,
           mentorId: true,
           tglKonfirmasi: true,
-          // teknologi: true,
+          Unit: {
+            select: {
+              nama: true,
+            },
+          },
         },
       }),
 
