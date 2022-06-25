@@ -45,10 +45,22 @@ export default function Rencana({
       </Layout>
     );
 
+  if (!data.tglKonfirmasi) {
+    return (
+      <Layout title={title} navbar={<NavbarProject id={id} />}>
+        <ProjectLabel judul={data.project.judul} namaUnit={data.project.Unit.nama} />
+        <div style={{ fontSize: 14, color: 'gray' }}>
+          Rencana aksi baru dapat diisi setelah mendapat konfirmasi/persetujuan dari CMO.
+        </div>
+      </Layout>
+    );
+  }
+
   const canEdit =
     sessionUser.id == data.project.managerId || sessionUser.id == data.project.staffId;
   const allowEdit = data.project.tglKonfirmasi == null;
   const canCreate = canEdit && allowEdit;
+  const showRencana = data.project.tglKonfirmasi;
 
   function newRencana() {
     return {
@@ -156,7 +168,6 @@ export default function Rencana({
         <Komentar projectId={id} type={type} />
         <FormKomentar type={type} userId={sessionUser.id} projectId={id} />
       </Show>
-      {/* <Pojo obj={data} /> */}
     </Layout>
   );
 }

@@ -130,14 +130,14 @@ export default function Analisis({ user }: { user: SessionUser }) {
           </Paper>
         </Tabs.Tab>
         <Tabs.Tab label="Analisis Perubahan">
-          {showAnalisis && (
-            <FormAnalisis
-              // tglKonfirmasi={data.tglKonfirmasi}
-              data={data}
-              canEdit={user?.id == data.mentorId}
-              mutate={mutate}
-            />
-          )}
+          {/* {showAnalisis && ( */}
+          <FormAnalisis
+            // tglKonfirmasi={data.tglKonfirmasi}
+            data={data}
+            canEdit={user?.id == data.mentorId}
+            mutate={mutate}
+          />
+          {/* )} */}
           {!showAnalisis && (
             <Text size="sm" mt={10} mb={15} color="gray">
               Halama ini khusus untuk Petugas CM.
