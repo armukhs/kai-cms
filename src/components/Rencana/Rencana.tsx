@@ -45,7 +45,7 @@ export default function Rencana({
       </Layout>
     );
 
-  if (!data.tglKonfirmasi) {
+  if (!data.project.tglKonfirmasi) {
     return (
       <Layout title={title} navbar={<NavbarProject id={id} />}>
         <ProjectLabel judul={data.project.judul} namaUnit={data.project.Unit.nama} />
